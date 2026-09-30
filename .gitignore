@@ -1,0 +1,31 @@
+# Left out of this repository: build outputs, caches, IDE state and harness
+# configuration found in the run workspaces. Files over 100 MB are attached
+# to the GitHub release of the run (see RELEASE_ASSETS.txt in its folder).
+build/
+.cache/
+.dart_tool/
+.gradle/
+.tooling/
+.pub-cache/
+node_modules/
+__pycache__/
+*.pyc
+.idea/
+*.iml
+local.properties
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Harness configuration
+.claude/
+.codex/
+.cline/
+.mcp.json
+opencode.json
+opencode.jsonc
+
+# Signing material
+.signing/
+*.jks
+*.keystore
+key.properties
