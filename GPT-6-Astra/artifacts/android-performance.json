@@ -1,0 +1,12 @@
+{
+  "native_import_confirmation_to_observed_success_seconds": 6.44,
+  "fixture_meals": 10000,
+  "note": "Includes UIAutomator polling overhead, not an isolated storage benchmark.",
+  "history_search_and_observation_seconds": 6.36,
+  "history_old_record_opened": "2019-11-23",
+  "history_edit_verified_ml": 130,
+  "cold_start_uncompressed_ms": 10720,
+  "trend_7_and_28_days_verified": true,
+  "compressed_encrypted_bytes": 187213,
+  "cold_start_compressed_ms": 1513
+}

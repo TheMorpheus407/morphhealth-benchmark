@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+umask 077
+TASK_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if [[ ! -f "$TASK_ROOT/app/.dart_tool/package_config.json" ]]; then
+    (cd "$TASK_ROOT/app" && flutter pub get --enforce-lockfile) >&2
+fi
+exec dart --packages="$TASK_ROOT/app/.dart_tool/package_config.json" "$TASK_ROOT/app/bin/mh.dart" "$@"

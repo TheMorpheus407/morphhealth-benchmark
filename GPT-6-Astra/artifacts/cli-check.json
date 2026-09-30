@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "op": "describe",
+      "ok": true,
+      "milliseconds": 3288.5
+    },
+    {
+      "op": "portable.import",
+      "ok": true,
+      "milliseconds": 101.12
+    },
+    {
+      "op": "portable.export",
+      "ok": true,
+      "milliseconds": 0.41
+    },
+    {
+      "op": "portable.import",
+      "ok": true,
+      "milliseconds": 122.3
+    },
+    {
+      "op": "nutrition.day",
+      "ok": true,
+      "milliseconds": 1.4
+    },
+    {
+      "op": "cycle.forecast",
+      "ok": true,
+      "milliseconds": 1.83
+    },
+    {
+      "op": "portable.export",
+      "ok": false,
+      "milliseconds": 0.7
+    },
+    {
+      "op": "portable.import",
+      "ok": false,
+      "milliseconds": 0.68
+    },
+    {
+      "op": "portable.export",
+      "ok": true,
+      "milliseconds": 0.17
+    },
+    {
+      "op": "nutrition.day",
+      "ok": false,
+      "milliseconds": 0.19
+    },
+    {
+      "op": "unknown",
+      "ok": false,
+      "milliseconds": 0.06
+    },
+    {
+      "op": "food.search",
+      "ok": true,
+      "milliseconds": 9508.18
+    },
+    {
+      "op": "food.lookup",
+      "ok": true,
+      "milliseconds": 89.25
+    },
+    {
+      "op": "food.lookup",
+      "ok": true,
+      "milliseconds": 8.86
+    },
+    {
+      "op": "portable.export",
+      "ok": true,
+      "milliseconds": 1042.77
+    }
+  ]
+}

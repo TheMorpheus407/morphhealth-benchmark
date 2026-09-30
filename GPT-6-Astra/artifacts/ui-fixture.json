@@ -1,0 +1,173 @@
+{
+  "format": "morphhealth",
+  "version": 1,
+  "settings": {
+    "language": "de",
+    "weightUnit": "kg",
+    "onlineFood": false,
+    "cyclePredictions": true,
+    "visible": {
+      "nutrition": true,
+      "cycle": true,
+      "weight": true,
+      "symptoms": true
+    },
+    "goals": {
+      "water": null,
+      "energy": null,
+      "protein": null,
+      "carbs": null,
+      "fat": null
+    }
+  },
+  "foods": [
+    {
+      "id": "test-food",
+      "name": "Prueflebensmittel",
+      "source": "custom",
+      "basis": "ml",
+      "servingSize": 40.0,
+      "nutrients": {
+        "energy": 200.0,
+        "protein": 5.0,
+        "carbs": 20.0,
+        "fat": 8.0,
+        "saturatedFat": null,
+        "sugar": null,
+        "fiber": null,
+        "salt": null,
+        "sodium": 0.2,
+        "caffeine": 50.0,
+        "vitaminA": null,
+        "vitaminC": 30.0,
+        "vitaminD": 2.0,
+        "vitaminE": null,
+        "vitaminK": null,
+        "vitaminB1": null,
+        "vitaminB2": null,
+        "vitaminB3": null,
+        "vitaminB5": null,
+        "vitaminB6": null,
+        "vitaminB7": null,
+        "vitaminB9": null,
+        "vitaminB12": null,
+        "calcium": null,
+        "iron": null,
+        "magnesium": null,
+        "potassium": null,
+        "zinc": null,
+        "selenium": null,
+        "iodine": 12.0,
+        "phosphorus": null
+      },
+      "favorite": true
+    }
+  ],
+  "meals": [
+    {
+      "id": "meal",
+      "note": "unique-sensitive-fixture",
+      "at": "2026-09-26T08:30:00+02:00",
+      "food": {
+        "id": "test-food",
+        "name": "Prueflebensmittel",
+        "source": "custom",
+        "basis": "ml",
+        "servingSize": 40.0,
+        "nutrients": {
+          "energy": 200.0,
+          "protein": 5.0,
+          "carbs": 20.0,
+          "fat": 8.0,
+          "saturatedFat": null,
+          "sugar": null,
+          "fiber": null,
+          "salt": null,
+          "sodium": 0.2,
+          "caffeine": 50.0,
+          "vitaminA": null,
+          "vitaminC": 30.0,
+          "vitaminD": 2.0,
+          "vitaminE": null,
+          "vitaminK": null,
+          "vitaminB1": null,
+          "vitaminB2": null,
+          "vitaminB3": null,
+          "vitaminB5": null,
+          "vitaminB6": null,
+          "vitaminB7": null,
+          "vitaminB9": null,
+          "vitaminB12": null,
+          "calcium": null,
+          "iron": null,
+          "magnesium": null,
+          "potassium": null,
+          "zinc": null,
+          "selenium": null,
+          "iodine": 12.0,
+          "phosphorus": null
+        },
+        "favorite": true
+      },
+      "unit": "serving",
+      "amount": 1.5,
+      "meal": "breakfast"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "water",
+      "note": "",
+      "at": "2026-09-26T09:00:00",
+      "kind": "water",
+      "amount": 250.0
+    },
+    {
+      "id": "caffeine",
+      "note": "",
+      "at": "2026-09-26T09:15:00",
+      "kind": "caffeine",
+      "amount": 70.0
+    }
+  ],
+  "periods": [
+    {
+      "id": "0",
+      "note": "",
+      "start": "2026-07-01",
+      "end": "2026-07-05",
+      "flow": "medium"
+    },
+    {
+      "id": "1",
+      "note": "",
+      "start": "2026-07-29",
+      "end": "2026-08-02",
+      "flow": "medium"
+    },
+    {
+      "id": "2",
+      "note": "",
+      "start": "2026-08-26",
+      "end": "2026-08-30",
+      "flow": "medium"
+    }
+  ],
+  "weights": [
+    {
+      "id": "w",
+      "note": "",
+      "at": "2026-09-26T08:00:00",
+      "kg": 65.5
+    }
+  ],
+  "symptoms": [
+    {
+      "id": "s",
+      "note": "Nach einem langen Tag",
+      "at": "2026-09-26T10:00:00",
+      "name": "Kopfschmerz",
+      "intensity": 3
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Starting: Intent { cmp=de.themorpheus.morphhealth.local/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: de.themorpheus.morphhealth.local/.MainActivity
+TotalTime: 10720
+WaitTime: 10724
+Complete
