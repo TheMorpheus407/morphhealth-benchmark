@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MorphHealth: a heart holding a leaf (health + nutrition). 108dp adaptive icon canvas. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,77 C54,77 31,63 31,46.5 C31,38.5 37,32 45,32 C49.5,32 52.5,34.5 54,37.5 C55.5,34.5 58.5,32 63,32 C71,32 77,38.5 77,46.5 C77,63 54,77 54,77 Z" />
+    <path
+        android:fillColor="#2F6F64"
+        android:pathData="M53.5,66 C47,59.5 47,50.5 60.5,44 C63,53 61,60.5 53.5,66 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round"
+        android:pathData="M53.8,64.5 C55,58 57,52 60,46" />
+</vector>

@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# Local maintenance access to MorphHealth (JSON Lines on stdin/stdout).
+#
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# Runs the same Dart domain code as the Android app (app/lib/core). The
+# native binary is built by build.sh; if it is missing or older than the
+# sources it is compiled here first (progress on stderr only). Without
+# explicit --food-* options the values from ENVIRONMENT.json are used.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN="$ROOT/artifacts/mh-linux-x64"
+
+needs_build() {
+  [[ -x "$BIN" ]] || return 0
+  [[ -n "$(find "$ROOT/app/lib/core" "$ROOT/app/bin" "$ROOT/app/pubspec.lock" -newer "$BIN" -print -quit 2>/dev/null)" ]]
+}
+
+if needs_build; then
+  echo "mh: compiling maintenance binary ..." >&2
+  mkdir -p "$ROOT/artifacts"
+  (
+    cd "$ROOT/app"
+    flutter pub get --enforce-lockfile >&2
+    dart compile exe bin/mh.dart -o "$BIN" >&2
+  )
+fi
+
+args=("$@")
+has_option() {
+  local a
+  for a in "${args[@]}"; do
+    [[ "$a" == "$1" || "$a" == "$1="* ]] && return 0
+  done
+  return 1
+}
+
+if [[ -f "$ROOT/ENVIRONMENT.json" ]]; then
+  env_value() {
+    python3 -c 'import json, sys; print(json.load(open(sys.argv[1])).get(sys.argv[2]) or "")' \
+      "$ROOT/ENVIRONMENT.json" "$1"
+  }
+  if ! has_option --food-base-url; then
+    value="$(env_value food_api_base_url)"
+    [[ -z "$value" ]] || args+=(--food-base-url "$value")
+  fi
+  if ! has_option --food-user-agent; then
+    value="$(env_value food_api_user_agent)"
+    [[ -z "$value" ]] || args+=(--food-user-agent "$value")
+  fi
+fi
+
+# Store files are created readable for the owner only.
+umask 077
+exec "$BIN" "${args[@]}"

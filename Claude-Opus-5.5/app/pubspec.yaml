@@ -1,0 +1,34 @@
+name: morphhealth
+description: "MorphHealth – persönliches Ernährungs-, Zyklus-, Gewichts- und Symptomtagebuch"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+# All versions are locked in pubspec.lock; build.sh and check.sh resolve with
+# `flutter pub get --enforce-lockfile`.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Pure-Dart AES-256-GCM and Argon2id (shared by the app and the mh CLI).
+  cryptography: 2.9.0
+  # SHA-256 / HMAC-SHA256 (HKDF, key check values).
+  crypto: ^3.0.6
+  # HTTP client for the read-only Open Food Facts contract.
+  http: ^1.6.0
+  # Date and number formatting (version pinned by flutter_localizations).
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
