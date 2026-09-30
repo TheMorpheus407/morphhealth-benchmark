@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+# Lokaler Wartungszugang (JSON Lines) zu den Funktionen von MorphHealth.
+#
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# Liest je Zeile eine JSON-Anfrage von stdin und schreibt je Zeile eine Antwort
+# auf stdout. Die Operation "describe" beschreibt alles Weitere; Details stehen
+# in der README. Der Starter führt das mit ./build.sh gebaute Programm
+# artifacts/mh-cli aus. Fehlt es, läuft ersatzweise der Quelltext (langsamer).
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN="$ROOT/artifacts/mh-cli"
+
+if [[ -x "$BIN" ]]; then
+  exec "$BIN" "$@"
+fi
+
+echo "mh: artifacts/mh-cli fehlt (./build.sh cli erzeugt es); starte den Quelltext" >&2
+DEFINES=()
+if [[ -r "$ROOT/ENVIRONMENT.json" ]]; then
+  while IFS= read -r line; do DEFINES+=("$line"); done < <(python3 - "$ROOT/ENVIRONMENT.json" << 'PY'
+import json, sys
+d = json.load(open(sys.argv[1], encoding="utf-8"))
+if d.get("food_api_base_url"):
+    print("-DMH_FOOD_BASE_URL=" + d["food_api_base_url"])
+if d.get("food_api_user_agent"):
+    print("-DMH_FOOD_USER_AGENT=" + d["food_api_user_agent"])
+PY
+)
+fi
+cd "$ROOT/app"
+exec dart run "${DEFINES[@]}" bin/mh.dart "$@"

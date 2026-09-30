@@ -1,0 +1,1127 @@
+{
+  "@@locale": "de",
+  "appName": "MorphHealth",
+  "navOverview": "Übersicht",
+  "navNutrition": "Ernährung",
+  "navCycle": "Zyklus",
+  "navWeight": "Gewicht",
+  "navSymptoms": "Symptome",
+  "commonSave": "Speichern",
+  "commonCancel": "Abbrechen",
+  "commonDelete": "Löschen",
+  "commonClose": "Schließen",
+  "commonRetry": "Erneut versuchen",
+  "commonToday": "Heute",
+  "bootFailedTitle": "Der Datenbestand lässt sich nicht öffnen",
+  "bootLoading": "MorphHealth wird geöffnet",
+  "commonOk": "OK",
+  "commonEdit": "Bearbeiten",
+  "commonAdd": "Hinzufügen",
+  "commonBack": "Zurück",
+  "commonDone": "Fertig",
+  "commonUndo": "Rückgängig",
+  "commonMore": "Mehr",
+  "commonDate": "Datum",
+  "commonTime": "Uhrzeit",
+  "commonNote": "Notiz",
+  "commonNoteOptional": "Notiz (optional)",
+  "commonRequired": "Bitte ausfüllen",
+  "commonInvalidNumber": "Bitte eine gültige Zahl eingeben",
+  "commonMustBePositive": "Der Wert muss größer als 0 sein",
+  "commonNone": "keine",
+  "commonAll": "Alle",
+  "commonShow": "Anzeigen",
+  "commonHide": "Ausblenden",
+  "dayPrevious": "Vorheriger Tag",
+  "dayNext": "Nächster Tag",
+  "dayPick": "Datum wählen",
+  "commonDeletedItem": "{what} gelöscht",
+  "@commonDeletedItem": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSaved": "Gespeichert",
+  "commonError": "Das hat nicht geklappt: {message}",
+  "@commonError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "unitG": "g",
+  "unitMl": "ml",
+  "unitPortion": "Portion",
+  "unitKg": "kg",
+  "unitLb": "lb",
+  "mealBreakfast": "Frühstück",
+  "mealLunch": "Mittagessen",
+  "mealDinner": "Abendessen",
+  "mealSnack": "Snack",
+  "flowSpotting": "Spotting",
+  "flowLight": "Leicht",
+  "flowMedium": "Mittel",
+  "flowHeavy": "Stark",
+  "flowNone": "Keine Angabe",
+  "nutritionTabDiary": "Tagebuch",
+  "nutritionTabTrends": "Verlauf",
+  "nutritionAddFood": "Lebensmittel hinzufügen",
+  "nutritionDaySummary": "Tagessumme",
+  "nutritionKcalOfGoal": "{value} von {goal} kcal",
+  "@nutritionKcalOfGoal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalPlain": "{value} kcal",
+  "@nutritionKcalPlain": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalLeft": "{value} kcal bis zum Ziel",
+  "@nutritionKcalLeft": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalOver": "{value} kcal über dem Ziel",
+  "@nutritionKcalOver": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionGoalReached": "Ziel erreicht",
+  "nutritionAllNutrients": "Alle Nährwerte",
+  "nutritionMealEmpty": "Noch nichts erfasst",
+  "nutritionAddToMeal": "Zu {meal} hinzufügen",
+  "@nutritionAddToMeal": {
+    "placeholders": {
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionEntryRelog": "Erneut erfassen",
+  "nutritionRelogged": "„{name}“ erneut erfasst",
+  "@nutritionRelogged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionEntryDeleted": "Eintrag gelöscht",
+  "nutritionDayEmpty": "An diesem Tag ist noch nichts erfasst.",
+  "nutritionEntrySubtitle": "{amount} · {kcal}",
+  "@nutritionEntrySubtitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionNoKcal": "keine kcal-Angabe",
+  "nutritionNoData": "keine Angabe",
+  "nutritionCoverage": "nur bei {count} von {total} Einträgen angegeben",
+  "@nutritionCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionShowDetails": "Details anzeigen",
+  "waterTitle": "Wasser",
+  "waterOfGoal": "{value} von {goal} ml",
+  "@waterOfGoal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "waterPlain": "{value} ml",
+  "@waterPlain": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "waterQuickAdd": "{amount} ml Wasser hinzufügen",
+  "@waterQuickAdd": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterAdded": "{amount} ml Wasser erfasst",
+  "@waterAdded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterOther": "Andere Menge",
+  "waterLogTitle": "Wasser erfassen",
+  "waterEditTitle": "Wassereintrag bearbeiten",
+  "waterAmountLabel": "Menge in ml",
+  "waterEntryTitle": "{amount} ml Wasser",
+  "@waterEntryTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterEntriesToday": "Einträge dieses Tages",
+  "caffeineTitle": "Koffein",
+  "caffeineTotal": "{value} mg gesamt",
+  "@caffeineTotal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineFromFoods": "{value} mg aus Lebensmitteln",
+  "@caffeineFromFoods": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineAdditional": "{value} mg zusätzlich erfasst",
+  "@caffeineAdditional": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineLogTitle": "Koffein erfassen",
+  "caffeineEditTitle": "Koffeineintrag bearbeiten",
+  "caffeineAmountLabel": "Menge in mg",
+  "caffeineLabelHint": "Bezeichnung (optional)",
+  "caffeinePresetNote": "Richtwerte zum Anpassen",
+  "caffeineCoffee": "Kaffee",
+  "caffeineEspresso": "Espresso",
+  "caffeineTea": "Schwarztee",
+  "caffeineGreenTea": "Grüner Tee",
+  "caffeineCola": "Cola",
+  "caffeineEnergy": "Energy-Drink",
+  "caffeineEntryTitle": "{mg} mg Koffein",
+  "@caffeineEntryTitle": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineAdded": "{mg} mg Koffein erfasst",
+  "@caffeineAdded": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerSearchHint": "Lebensmittel suchen",
+  "pickerBarcodeHint": "Barcode-Nummer eingeben",
+  "pickerModeName": "Name",
+  "pickerModeBarcode": "Barcode",
+  "pickerTabSearch": "Suche",
+  "pickerTabRecent": "Zuletzt",
+  "pickerTabFavorites": "Favoriten",
+  "pickerTabCustom": "Eigene",
+  "pickerSearchButton": "Suchen",
+  "pickerOnlineHint": "Die Suche nutzt Open Food Facts. Dabei wird nur der Suchbegriff an den Dienst gesendet.",
+  "pickerOnlineDisabled": "Die Online-Suche ist ausgeschaltet. Du kannst sie in den Einstellungen einschalten.",
+  "pickerNoResults": "Keine Treffer für „{query}“.",
+  "@pickerNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerBarcodeNotFound": "Zu dieser Nummer wurde kein Produkt gefunden.",
+  "pickerBarcodeInvalid": "Eine Barcode-Nummer hat 8 bis 14 Ziffern.",
+  "pickerLoadMore": "Mehr laden",
+  "pickerResultCount": "{count} Treffer",
+  "@pickerResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerErrorOffline": "Keine Verbindung zum Lebensmitteldienst. Bitte prüfe die Internetverbindung.",
+  "pickerErrorTimeout": "Der Lebensmitteldienst antwortet nicht rechtzeitig.",
+  "pickerErrorTls": "Die gesicherte Verbindung wurde abgelehnt (Zertifikat).",
+  "pickerErrorRate": "Der Dienst ist gerade überlastet. Bitte später erneut versuchen.",
+  "pickerErrorGeneric": "Die Anfrage ist fehlgeschlagen ({code}).",
+  "@pickerErrorGeneric": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerCreateCustom": "Eigenes Lebensmittel anlegen",
+  "pickerNoRecent": "Noch nichts erfasst. Hier erscheinen zuletzt verwendete Lebensmittel.",
+  "pickerNoFavorites": "Noch keine Favoriten. Tippe in einem Eintrag auf den Stern.",
+  "pickerNoCustom": "Noch keine eigenen Lebensmittel.",
+  "pickerNoLocalMatches": "Keine passenden Lebensmittel in dieser Liste.",
+  "foodPer100": "je 100 {unit}",
+  "@foodPer100": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "foodKcalPer100": "{kcal} kcal je 100 {unit}",
+  "@foodKcalPer100": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "foodNoNutrition": "Keine Nährwerte hinterlegt",
+  "foodSourceOff": "Open Food Facts",
+  "foodSourceCustom": "Eigenes Lebensmittel",
+  "foodUnnamed": "Unbenanntes Produkt",
+  "foodDetailsLoading": "Produktdetails werden geladen",
+  "foodDetailsFallback": "Die Details konnten nicht geladen werden. Es gelten die Werte aus der Suche.",
+  "foodFavoriteAdded": "Zu Favoriten hinzugefügt",
+  "foodFavoriteRemoved": "Aus Favoriten entfernt",
+  "foodDeleteLibraryTitle": "Lebensmittel löschen?",
+  "foodDeleteLibraryMessage": "„{name}“ wird aus deiner Bibliothek entfernt. Bereits erfasste Einträge bleiben erhalten.",
+  "@foodDeleteLibraryMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "entryAddTitle": "Eintrag hinzufügen",
+  "entryEditTitle": "Eintrag bearbeiten",
+  "entryAmount": "Menge",
+  "entryUnit": "Einheit",
+  "entryServingSize": "Eine Portion entspricht",
+  "entryServingRequired": "Bitte gib die Größe einer Portion an.",
+  "entryServingInfo": "1 Portion = {amount} {unit}",
+  "@entryServingInfo": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "entryPreview": "Nährwerte für diese Menge",
+  "entryMeal": "Mahlzeit",
+  "entryFavoriteAdd": "Zu Favoriten hinzufügen",
+  "entryFavoriteRemove": "Aus Favoriten entfernen",
+  "entryDelete": "Eintrag löschen",
+  "entryCopyToCustom": "Als eigenes Lebensmittel kopieren",
+  "entryDataSource": "Daten: Open Food Facts (ODbL)",
+  "entryPreparedNote": "Die Werte gelten für das zubereitete Produkt.",
+  "entryIncompleteData": "Für dieses Produkt fehlen Nährwerte.",
+  "entryAddedToMeal": "„{name}“ zu {meal} hinzugefügt",
+  "@entryAddedToMeal": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "entryUpdated": "Eintrag aktualisiert",
+  "customTitleNew": "Eigenes Lebensmittel",
+  "customTitleEdit": "Lebensmittel bearbeiten",
+  "customName": "Name",
+  "customBrand": "Marke (optional)",
+  "customBarcode": "Barcode (optional)",
+  "customBasis": "Die Nährwerte beziehen sich auf",
+  "customPer100g": "100 g",
+  "customPer100ml": "100 ml",
+  "customServing": "Portionsgröße (optional)",
+  "customServingLabel": "Bezeichnung (optional)",
+  "customSectionMain": "Hauptnährwerte je 100 {unit}",
+  "@customSectionMain": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "customSectionMore": "Weitere Nährwerte",
+  "customSectionVitamins": "Vitamine",
+  "customSectionMinerals": "Mineralstoffe",
+  "customFavorite": "Als Favorit markieren",
+  "customNoteEntries": "Änderungen gelten auch für bereits erfasste Einträge dieses Lebensmittels.",
+  "customSaltSodium": "Ist nur Salz oder nur Natrium angegeben, wird das andere berechnet.",
+  "customSaved": "„{name}“ gespeichert",
+  "@customSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nutrientsTitle": "Nährwerte",
+  "nutrientsGroupMain": "Energie und Hauptnährstoffe",
+  "nutrientsGroupMore": "Weitere Nährwerte",
+  "nutrientsGroupVitamins": "Vitamine",
+  "nutrientsGroupMinerals": "Mineralstoffe",
+  "nutrientsDashHint": "Ein Strich (–) steht für fehlende Angaben in den erfassten Einträgen.",
+  "trendsRange7": "7 Tage",
+  "trendsRange28": "28 Tage",
+  "trendsMetric": "Anzeigen",
+  "trendsAverage": "Durchschnitt: {value} ({days} von {total} Tagen erfasst)",
+  "@trendsAverage": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "trendsMinMax": "Niedrigster Wert {min}, höchster Wert {max}",
+  "@trendsMinMax": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "trendsNoData": "Im gewählten Zeitraum sind keine Werte erfasst.",
+  "trendsGoal": "Ziel",
+  "trendsChartHint": "Balken antippen, um den Wert zu sehen",
+  "trendsNoDataDay": "keine Angabe",
+  "trendsSummary": "{metric}, {range}. Durchschnitt {avg}. {days} von {total} Tagen mit Angaben.",
+  "@trendsSummary": {
+    "placeholders": {
+      "metric": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      },
+      "avg": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "historyTitle": "Historie",
+  "historySearchHint": "Suchen (Name, Notiz, Symptom …)",
+  "historyAreas": "Bereiche",
+  "historyPeriod": "Zeitraum",
+  "historyPreset7": "Letzte 7 Tage",
+  "historyPreset28": "Letzte 28 Tage",
+  "historyPreset90": "Letzte 90 Tage",
+  "historyPresetAll": "Gesamter Zeitraum",
+  "historyCustomRange": "Zeitraum wählen",
+  "historyCount": "{count, plural, =0{Keine Einträge} =1{1 Eintrag} other{{count} Einträge}}",
+  "@historyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmpty": "Keine Einträge gefunden. Passe Suchbegriff oder Filter an.",
+  "historyClearFilters": "Filter zurücksetzen",
+  "historyPeriodTitle": "Periode {from} bis {to}",
+  "@historyPeriodTitle": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "historyPeriodOpen": "Periode ab {from} (läuft)",
+  "@historyPeriodOpen": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "historySymptomTitle": "{name} · {intensity} von 10",
+  "@historySymptomTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "intensity": {
+        "type": "String"
+      }
+    }
+  },
+  "historyCaffeineTitle": "{mg} mg Koffein",
+  "@historyCaffeineTitle": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "weightAdd": "Gewicht erfassen",
+  "weightEditTitle": "Gewichtseintrag bearbeiten",
+  "weightValueLabel": "Gewicht",
+  "weightLatest": "Zuletzt: {value} am {date}",
+  "@weightLatest": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "weightChange": "{delta} gegenüber dem vorherigen Eintrag",
+  "@weightChange": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "weightNoEntries": "Noch kein Gewicht erfasst.",
+  "weightRange90": "90 Tage",
+  "weightRangeAll": "Alles",
+  "weightChartSummary": "Gewichtsverlauf, {range}. Erster Wert {first}, letzter Wert {last}, {count, plural, =1{1 Eintrag} other{{count} Einträge}}.",
+  "@weightChartSummary": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      },
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weightStats": "Niedrigster Wert {min}, höchster Wert {max}, Änderung {delta}",
+  "@weightStats": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "weightChartHint": "Punkt antippen, um den Wert zu sehen",
+  "weightEntriesTitle": "Einträge",
+  "weightNoteHint": "Notiz (optional)",
+  "weightNoRange": "Im gewählten Zeitraum ist kein Gewicht erfasst.",
+  "symptomAdd": "Symptom erfassen",
+  "symptomEditTitle": "Symptom bearbeiten",
+  "symptomNameLabel": "Name des Symptoms",
+  "symptomIntensity": "Intensität",
+  "symptomIntensityValue": "{value} von 10",
+  "@symptomIntensityValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomIntensityHint": "0 = kaum spürbar, 10 = sehr stark",
+  "symptomRecent": "Zuletzt verwendet",
+  "symptomTabDay": "Tag",
+  "symptomTabHistory": "Verlauf",
+  "symptomNoEntries": "An diesem Tag sind keine Symptome erfasst.",
+  "symptomPick": "Symptom wählen",
+  "symptomStats": "{count, plural, =1{1 Eintrag} other{{count} Einträge}}, Durchschnitt {avg} von 10, Höchstwert {max}",
+  "@symptomStats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomNoHistory": "Noch keine Symptome erfasst. Sobald du eines erfasst, kannst du hier den Verlauf ansehen.",
+  "symptomChartSummary": "Verlauf von {name}, {range}. {count, plural, =1{1 Eintrag} other{{count} Einträge}}, Durchschnitt {avg} von 10.",
+  "@symptomChartSummary": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomLogged": "„{name}“ erfasst",
+  "@symptomLogged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomEntryTitle": "{name}, Intensität {intensity} von 10",
+  "@symptomEntryTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "intensity": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomNoInRange": "Im gewählten Zeitraum ist dieses Symptom nicht erfasst.",
+  "cycleTabCalendar": "Kalender",
+  "cycleTabHistory": "Historie",
+  "cycleForecastTitle": "Einschätzung",
+  "cycleStateAsOf": "Stand: {date}",
+  "@cycleStateAsOf": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleNoDataTitle": "Noch keine Perioden erfasst",
+  "cycleNoDataBody": "Sobald zwei Periodenbeginne vorliegen, schätzt MorphHealth den nächsten Beginn aus deinen eigenen Abständen.",
+  "cycleInsufficientTitle": "Für eine Einschätzung fehlen noch Daten",
+  "cycleInsufficientBody": "Ein Zyklus braucht zwei Periodenbeginne. Trage weitere Perioden ein oder lege in den Einstellungen eine typische Zykluslänge fest.",
+  "cycleInPeriodTitle": "Tag {day} der Periode",
+  "@cycleInPeriodTitle": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cyclePredictedIn": "{days, plural, =0{Beginn voraussichtlich heute} =1{Beginn voraussichtlich morgen} other{Beginn voraussichtlich in {days} Tagen}}",
+  "@cyclePredictedIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleNextStart": "Voraussichtlicher Beginn: {date}",
+  "@cycleNextStart": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleWindowLine": "Zeitfenster: {from} bis {to}",
+  "@cycleWindowLine": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleOverdueTitle": "Der berechnete Beginn liegt {days, plural, =1{1 Tag} other{{days} Tage}} zurück",
+  "@cycleOverdueTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleOverdueBody": "Es ist noch keine neue Periode erfasst. Trage den Beginn ein, sobald er eintritt.",
+  "cycleStaleTitle": "Der letzte erfasste Beginn liegt lange zurück",
+  "cycleStaleBody": "Vermutlich fehlen Einträge, deshalb gibt es keine aktuelle Einschätzung.",
+  "cycleDisabledTitle": "Prognose ausgeschaltet",
+  "cycleDisabledBody": "Der Zyklusbereich arbeitet als reines Tagebuch. Du kannst die Prognose in den Einstellungen einschalten.",
+  "cycleCycleDay": "Zyklustag {day}",
+  "@cycleCycleDay": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleConfidence": "Verlässlichkeit: {level}",
+  "@cycleConfidence": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleConfHigh": "hoch",
+  "cycleConfMedium": "mittel",
+  "cycleConfLow": "niedrig",
+  "cycleExplainButton": "Wie kommt die Einschätzung zustande?",
+  "cycleExplainTitle": "Erklärung der Einschätzung",
+  "cycleExplainIntervals": "Abstände zwischen Periodenbeginnen",
+  "cycleExplainUsed": "verwendet",
+  "cycleExplainTooShort": "nicht verwendet: unter 15 Tagen",
+  "cycleExplainTooLong": "nicht verwendet: über 60 Tagen",
+  "cycleExplainOlder": "nicht verwendet: älter als die letzten 6 Zyklen",
+  "cycleExplainNoIntervals": "Noch keine Abstände vorhanden.",
+  "cycleIntervalRow": "{from} bis {to}: {days} Tage",
+  "@cycleIntervalRow": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStartToday": "Periode beginnt heute",
+  "cycleStartOnDay": "Periode beginnt am {date}",
+  "@cycleStartOnDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndToday": "Periode endet heute",
+  "cycleEndOnDay": "Periode endet am {date}",
+  "@cycleEndOnDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStartedSnack": "Periode ab {date} erfasst",
+  "@cycleStartedSnack": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndedSnack": "Ende der Periode am {date} erfasst",
+  "@cycleEndedSnack": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleAddPeriod": "Periode erfassen",
+  "cycleEditPeriod": "Periode bearbeiten",
+  "cycleStart": "Beginn",
+  "cycleEnd": "Ende",
+  "cycleOngoing": "Läuft noch (kein Ende erfasst)",
+  "cycleFlow": "Blutungsstärke",
+  "cycleNotes": "Notizen",
+  "cycleOverlap": "Die Periode überschneidet sich mit einer vorhandenen Periode ({from} bis {to}).",
+  "@cycleOverlap": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndBeforeStart": "Das Ende liegt vor dem Beginn.",
+  "cycleTooLong": "Eine Periode darf höchstens 60 Tage umfassen.",
+  "cycleMonthPrev": "Vorheriger Monat",
+  "cycleMonthNext": "Nächster Monat",
+  "cycleMonthPick": "Monat wählen",
+  "cycleLegendPeriod": "Periode",
+  "cycleLegendPredicted": "Voraussichtlich",
+  "cycleLegendWindow": "Zeitfenster",
+  "cycleLegendSymptom": "Symptome erfasst",
+  "cycleFlowOnDay": "Blutungsstärke an diesem Tag",
+  "cycleFlowRemove": "Angabe entfernen",
+  "cycleDaySymptoms": "Symptome an diesem Tag",
+  "cycleAddSymptomHere": "Symptom hinzufügen",
+  "cycleOpenDayDetail": "Tagesdetail öffnen",
+  "cycleDayInPeriod": "Periode, Tag {day}",
+  "@cycleDayInPeriod": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleDayNoPeriod": "Keine Periode an diesem Tag.",
+  "cycleDayPredicted": "Voraussichtlicher Periodentag",
+  "cycleHistoryEmpty": "Noch keine Perioden erfasst.",
+  "cycleHistoryDays": "{days, plural, =1{1 Tag} other{{days} Tage}}",
+  "@cycleHistoryDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryCycle": "Zyklus {days} Tage",
+  "@cycleHistoryCycle": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndMissing": "Ende fehlt",
+  "cycleHistoryOngoing": "läuft",
+  "cycleStatsTitle": "Zahlen aus deiner Historie",
+  "cycleStatsAvg": "Durchschnittliche Zykluslänge: {value} Tage",
+  "@cycleStatsAvg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStatsPeriod": "Durchschnittliche Periodendauer: {value} Tage",
+  "@cycleStatsPeriod": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStatsCount": "{count, plural, =1{1 Periode erfasst} other{{count} Perioden erfasst}}",
+  "@cycleStatsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleSpottingNote": "Nur Spotting: zählt nicht als Periodenbeginn für die Einschätzung.",
+  "cycleDeleteTitle": "Periode löschen?",
+  "cycleDeleteMessage": "Die Periode ab {date} wird gelöscht.",
+  "@cycleDeleteMessage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleLegendToday": "Heute",
+  "dayDetailTitle": "Tagesdetail",
+  "overviewCustomize": "Bereiche anpassen",
+  "overviewCustomizeHint": "Ausgeblendete Bereiche bleiben gespeichert und lassen sich jederzeit wieder einblenden.",
+  "overviewRangeDay": "Tag",
+  "overviewOpenDay": "Tagesdetail",
+  "overviewNothingVisible": "Alle Bereiche sind ausgeblendet. Wähle unter „Bereiche anpassen“ mindestens einen aus.",
+  "overviewSettings": "Einstellungen",
+  "overviewWeightNone": "Noch kein Gewicht erfasst",
+  "overviewSymptomsNone": "An diesem Tag sind keine Symptome erfasst",
+  "overviewAverageKcal": "Durchschnitt {value} kcal an {days} von {total} Tagen",
+  "@overviewAverageKcal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewWaterAverage": "Wasser: Durchschnitt {value} ml",
+  "@overviewWaterAverage": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewCyclePeriods": "{count, plural, =0{Keine Periode im Zeitraum} =1{1 Periode im Zeitraum} other{{count} Perioden im Zeitraum}}",
+  "@overviewCyclePeriods": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewTopSymptoms": "Häufigste Symptome",
+  "overviewSymptomCount": "{count, plural, =1{1 Eintrag} other{{count} Einträge}}, Durchschnitt {avg} von 10",
+  "@overviewSymptomCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewWeightRange": "Von {first} auf {last} ({delta})",
+  "@overviewWeightRange": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewOpenArea": "{area} öffnen",
+  "@overviewOpenArea": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewNoDataRange": "Im Zeitraum sind keine Einträge erfasst.",
+  "settingsTitle": "Einstellungen",
+  "settingsLanguage": "Sprache",
+  "langGerman": "Deutsch",
+  "langEnglish": "English",
+  "settingsWeightUnit": "Gewichtseinheit",
+  "settingsAreas": "Bereiche der Übersicht",
+  "settingsGoals": "Tagesziele",
+  "settingsGoalsSubtitle": "Freiwillig: Wasser, Kalorien, Eiweiß, Kohlenhydrate, Fett",
+  "goalsHint": "Alle Ziele sind freiwillig. Leere Felder bedeuten: kein Ziel. Du bestimmst die Werte.",
+  "goalWater": "Wasser",
+  "goalEnergy": "Kalorien",
+  "goalSaved": "Ziele gespeichert",
+  "settingsCycleSection": "Zyklus",
+  "settingsForecast": "Prognose anzeigen",
+  "settingsForecastHint": "Ausgeschaltet arbeitet der Zyklusbereich nur als Tagebuch.",
+  "settingsExpectedCycle": "Typische Zykluslänge in Tagen (optional)",
+  "settingsExpectedCycleHint": "Wird nur verwendet, solange noch kein vollständiger Zyklus erfasst ist. Erlaubt sind 15 bis 60 Tage.",
+  "settingsOnlineSection": "Online-Lebensmittelsuche",
+  "settingsOnlineSwitch": "Open Food Facts nutzen",
+  "settingsOnlineHint": "Es wird nur der Suchbegriff beziehungsweise die Barcode-Nummer an den Dienst gesendet. Ohne diese Funktion arbeitet die App vollständig lokal.",
+  "settingsServer": "Server der Lebensmittel-API",
+  "settingsServerHint": "HTTPS-Ursprung, zum Beispiel https://world.openfoodfacts.org",
+  "settingsServerInvalid": "Bitte einen HTTPS-Ursprung ohne Pfad angeben, zum Beispiel https://world.openfoodfacts.org.",
+  "settingsServerReset": "Standard verwenden",
+  "settingsServerDefault": "Standard: {url}",
+  "@settingsServerDefault": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsServerSaved": "Server gespeichert",
+  "settingsTheme": "Darstellung",
+  "themeSystem": "System",
+  "themeLight": "Hell",
+  "themeDark": "Dunkel",
+  "settingsPrivacySection": "Datenschutz",
+  "settingsSecure": "Bildschirmaufnahmen sperren",
+  "settingsSecureHint": "Sperrt Screenshots und die Vorschau in der App-Übersicht.",
+  "settingsData": "Daten und Sicherung",
+  "settingsDataSubtitle": "Export, Import, verschlüsselte Sicherung, Löschen",
+  "settingsAbout": "Über MorphHealth",
+  "aboutText": "MorphHealth speichert alle Daten verschlüsselt auf diesem Gerät. Es gibt kein Konto, keine Werbung und keine Telemetrie. Nährwertdaten stammen von Open Food Facts (ODbL).",
+  "aboutMedical": "MorphHealth dient der persönlichen Dokumentation und Planung. Es ersetzt keine medizinische Beratung und berechnet weder Diagnosen noch Eisprung oder fruchtbare Tage.",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLicenses": "Open-Source-Lizenzen",
+  "dataTitle": "Daten und Sicherung",
+  "dataExportTitle": "Datenexport (JSON)",
+  "dataExportHint": "Vollständiger, maschinenlesbarer Export aller Daten. Das Format ist in der README beschrieben. Die Datei ist unverschlüsselt.",
+  "dataExportButton": "Exportieren",
+  "dataExportWarnTitle": "Unverschlüsselter Export",
+  "dataExportWarnMessage": "Die Datei enthält alle deine Gesundheitsdaten im Klartext. Speichere sie nur an einem Ort, dem du vertraust.",
+  "dataExportDone": "Export gespeichert: {name}",
+  "@dataExportDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportTitle": "Datenimport (JSON)",
+  "dataImportHint": "Ersetzt alle vorhandenen Daten durch den Inhalt einer Exportdatei.",
+  "dataImportButton": "Datei wählen",
+  "dataImportPreviewTitle": "Import prüfen",
+  "dataImportSummary": "Die Datei enthält {count} Datensätze.",
+  "@dataImportSummary": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportWarnings": "{count} Hinweise beim Prüfen",
+  "@dataImportWarnings": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportReplaceWarning": "Alle vorhandenen Daten werden ersetzt.",
+  "dataImportConfirm": "Ersetzen",
+  "dataImportInvalid": "Die Datei ist ungültig",
+  "dataImportInvalidJson": "Die Datei ist kein gültiges JSON.",
+  "dataImportDone": "Import abgeschlossen: {count} Datensätze",
+  "@dataImportDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataBackupTitle": "Verschlüsselte Sicherung",
+  "dataBackupHint": "Sicherung mit Passphrase (AES-256, Argon2id). Sie lässt sich auf einer frischen Installation wiederherstellen.",
+  "dataBackupCreate": "Sicherung erstellen",
+  "dataPassphrase": "Passphrase",
+  "dataPassphraseRepeat": "Passphrase wiederholen",
+  "dataPassphraseMismatch": "Die Passphrasen stimmen nicht überein.",
+  "dataPassphraseShort": "Mindestens {min} Zeichen.",
+  "@dataPassphraseShort": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "dataBackupWarning": "Ohne die Passphrase lässt sich die Sicherung nicht öffnen. Sie kann nicht zurückgesetzt werden.",
+  "dataBackupDone": "Sicherung gespeichert: {name}",
+  "@dataBackupDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataRestoreTitle": "Sicherung wiederherstellen",
+  "dataRestoreHint": "Ersetzt alle vorhandenen Daten durch den Inhalt einer Sicherung.",
+  "dataRestoreButton": "Sicherung wählen",
+  "dataRestoreWrong": "Passphrase falsch oder Datei beschädigt.",
+  "dataRestoreNotBackup": "Die Datei ist keine MorphHealth-Sicherung.",
+  "dataRestoreDone": "Wiederhergestellt: {count} Datensätze",
+  "@dataRestoreDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataWorking": "Bitte einen Moment warten …",
+  "dataWipeTitle": "Alle lokalen Daten löschen",
+  "dataWipeHint": "Löscht alle Einträge, Lebensmittel und Einstellungen auf diesem Gerät und erneuert den Schlüssel.",
+  "dataWipeButton": "Alles löschen",
+  "dataWipeConfirmTitle": "Wirklich alles löschen?",
+  "dataWipeConfirmMessage": "Alle Einträge, eigenen Lebensmittel, Favoriten und Einstellungen werden unwiderruflich gelöscht. Exporte und Sicherungen, die du außerhalb der App gespeichert hast, bleiben bestehen.",
+  "dataWipeDone": "Alle Daten wurden gelöscht.",
+  "dataFileTooLarge": "Die Datei ist zu groß.",
+  "bootFailedWrongKey": "Der gespeicherte Schlüssel passt nicht zum Datenbestand. Das kommt vor, wenn das Gerät zurückgesetzt oder der Schlüssel gelöscht wurde.",
+  "bootFailedCorrupt": "Der Datenbestand ist beschädigt.",
+  "bootFailedLocked": "Der Datenbestand wird von einem anderen Prozess verwendet.",
+  "bootFailedKey": "Der Gerätehauptschlüssel konnte nicht gelesen werden.",
+  "bootFailedIo": "Auf den Speicher konnte nicht zugegriffen werden.",
+  "bootRestore": "Aus Sicherung wiederherstellen",
+  "bootStartFresh": "Neu beginnen (alle Daten löschen)",
+  "waterTotalLabel": "Gesamt",
+  "unitPortions": "Portionen",
+  "errAmountInvalid": "Die Menge muss größer als 0 sein.",
+  "errServingNeeded": "Für Portionen ist eine Portionsgröße nötig.",
+  "errWeightRange": "Das Gewicht liegt außerhalb des zulässigen Bereichs (1 bis 700 kg).",
+  "errSymptomInvalid": "Ein Symptom braucht einen Namen und eine Intensität von 0 bis 10.",
+  "errFoodInvalid": "Ein Lebensmittel braucht einen Namen, und eine Portionsgröße muss größer als 0 sein.",
+  "errRecordInvalid": "Diese Angaben lassen sich so nicht speichern (zu lang oder ungültig).",
+  "errNothingToRemove": "An diesem Tag ist keine Periode erfasst.",
+  "errBackupUnsupported": "Diese Sicherung stammt aus einer anderen Version oder verwendet unzulässige Parameter.",
+  "errBackupCorrupt": "Der Inhalt der Sicherung ist beschädigt.",
+  "errPickerBusy": "Es läuft bereits eine Dateiauswahl.",
+  "dataRestorePreviewTitle": "Sicherung prüfen"
+}

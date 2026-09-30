@@ -1,0 +1,20 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - lib/l10n/gen/**
+  language:
+    strict-casts: false
+
+formatter:
+  page_width: 120
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
+    unawaited_futures: true
+    always_declare_return_types: true
+    prefer_final_locals: false
+    use_null_aware_elements: true

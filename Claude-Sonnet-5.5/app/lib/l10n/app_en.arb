@@ -1,0 +1,1127 @@
+{
+  "@@locale": "en",
+  "appName": "MorphHealth",
+  "navOverview": "Overview",
+  "navNutrition": "Nutrition",
+  "navCycle": "Cycle",
+  "navWeight": "Weight",
+  "navSymptoms": "Symptoms",
+  "commonSave": "Save",
+  "commonCancel": "Cancel",
+  "commonDelete": "Delete",
+  "commonClose": "Close",
+  "commonRetry": "Try again",
+  "commonToday": "Today",
+  "bootFailedTitle": "The data could not be opened",
+  "bootLoading": "Opening MorphHealth",
+  "commonOk": "OK",
+  "commonEdit": "Edit",
+  "commonAdd": "Add",
+  "commonBack": "Back",
+  "commonDone": "Done",
+  "commonUndo": "Undo",
+  "commonMore": "More",
+  "commonDate": "Date",
+  "commonTime": "Time",
+  "commonNote": "Note",
+  "commonNoteOptional": "Note (optional)",
+  "commonRequired": "Required",
+  "commonInvalidNumber": "Please enter a valid number",
+  "commonMustBePositive": "The value must be greater than 0",
+  "commonNone": "none",
+  "commonAll": "All",
+  "commonShow": "Show",
+  "commonHide": "Hide",
+  "dayPrevious": "Previous day",
+  "dayNext": "Next day",
+  "dayPick": "Choose date",
+  "commonDeletedItem": "{what} deleted",
+  "@commonDeletedItem": {
+    "placeholders": {
+      "what": {
+        "type": "String"
+      }
+    }
+  },
+  "commonSaved": "Saved",
+  "commonError": "That did not work: {message}",
+  "@commonError": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "unitG": "g",
+  "unitMl": "ml",
+  "unitPortion": "Serving",
+  "unitKg": "kg",
+  "unitLb": "lb",
+  "mealBreakfast": "Breakfast",
+  "mealLunch": "Lunch",
+  "mealDinner": "Dinner",
+  "mealSnack": "Snack",
+  "flowSpotting": "Spotting",
+  "flowLight": "Light",
+  "flowMedium": "Medium",
+  "flowHeavy": "Heavy",
+  "flowNone": "Not specified",
+  "nutritionTabDiary": "Diary",
+  "nutritionTabTrends": "Trends",
+  "nutritionAddFood": "Add food",
+  "nutritionDaySummary": "Day total",
+  "nutritionKcalOfGoal": "{value} of {goal} kcal",
+  "@nutritionKcalOfGoal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalPlain": "{value} kcal",
+  "@nutritionKcalPlain": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalLeft": "{value} kcal to go",
+  "@nutritionKcalLeft": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionKcalOver": "{value} kcal above the goal",
+  "@nutritionKcalOver": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionGoalReached": "Goal reached",
+  "nutritionAllNutrients": "All nutrients",
+  "nutritionMealEmpty": "Nothing logged yet",
+  "nutritionAddToMeal": "Add to {meal}",
+  "@nutritionAddToMeal": {
+    "placeholders": {
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionEntryRelog": "Log again",
+  "nutritionRelogged": "Logged “{name}” again",
+  "@nutritionRelogged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionEntryDeleted": "Entry deleted",
+  "nutritionDayEmpty": "Nothing has been logged on this day.",
+  "nutritionEntrySubtitle": "{amount} · {kcal}",
+  "@nutritionEntrySubtitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "kcal": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionNoKcal": "no kcal data",
+  "nutritionNoData": "no data",
+  "nutritionCoverage": "given for only {count} of {total} entries",
+  "@nutritionCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "nutritionShowDetails": "Show details",
+  "waterTitle": "Water",
+  "waterOfGoal": "{value} of {goal} ml",
+  "@waterOfGoal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "goal": {
+        "type": "String"
+      }
+    }
+  },
+  "waterPlain": "{value} ml",
+  "@waterPlain": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "waterQuickAdd": "Add {amount} ml water",
+  "@waterQuickAdd": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterAdded": "{amount} ml water logged",
+  "@waterAdded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterOther": "Other amount",
+  "waterLogTitle": "Log water",
+  "waterEditTitle": "Edit water entry",
+  "waterAmountLabel": "Amount in ml",
+  "waterEntryTitle": "{amount} ml water",
+  "@waterEntryTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "waterEntriesToday": "Entries of this day",
+  "caffeineTitle": "Caffeine",
+  "caffeineTotal": "{value} mg total",
+  "@caffeineTotal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineFromFoods": "{value} mg from foods",
+  "@caffeineFromFoods": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineAdditional": "{value} mg logged separately",
+  "@caffeineAdditional": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineLogTitle": "Log caffeine",
+  "caffeineEditTitle": "Edit caffeine entry",
+  "caffeineAmountLabel": "Amount in mg",
+  "caffeineLabelHint": "Label (optional)",
+  "caffeinePresetNote": "Typical values, adjust as needed",
+  "caffeineCoffee": "Coffee",
+  "caffeineEspresso": "Espresso",
+  "caffeineTea": "Black tea",
+  "caffeineGreenTea": "Green tea",
+  "caffeineCola": "Cola",
+  "caffeineEnergy": "Energy drink",
+  "caffeineEntryTitle": "{mg} mg caffeine",
+  "@caffeineEntryTitle": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "caffeineAdded": "{mg} mg caffeine logged",
+  "@caffeineAdded": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerSearchHint": "Search foods",
+  "pickerBarcodeHint": "Enter barcode number",
+  "pickerModeName": "Name",
+  "pickerModeBarcode": "Barcode",
+  "pickerTabSearch": "Search",
+  "pickerTabRecent": "Recent",
+  "pickerTabFavorites": "Favorites",
+  "pickerTabCustom": "My foods",
+  "pickerSearchButton": "Search",
+  "pickerOnlineHint": "Search uses Open Food Facts. Only the search term is sent to the service.",
+  "pickerOnlineDisabled": "Online search is switched off. You can switch it on in the settings.",
+  "pickerNoResults": "No results for “{query}”.",
+  "@pickerNoResults": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerBarcodeNotFound": "No product was found for this number.",
+  "pickerBarcodeInvalid": "A barcode number has 8 to 14 digits.",
+  "pickerLoadMore": "Load more",
+  "pickerResultCount": "{count} results",
+  "@pickerResultCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerErrorOffline": "No connection to the food service. Please check your internet connection.",
+  "pickerErrorTimeout": "The food service did not answer in time.",
+  "pickerErrorTls": "The secure connection was rejected (certificate).",
+  "pickerErrorRate": "The service is busy right now. Please try again later.",
+  "pickerErrorGeneric": "The request failed ({code}).",
+  "@pickerErrorGeneric": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "pickerCreateCustom": "Create custom food",
+  "pickerNoRecent": "Nothing logged yet. Recently used foods appear here.",
+  "pickerNoFavorites": "No favorites yet. Tap the star in an entry.",
+  "pickerNoCustom": "No custom foods yet.",
+  "pickerNoLocalMatches": "No matching foods in this list.",
+  "foodPer100": "per 100 {unit}",
+  "@foodPer100": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "foodKcalPer100": "{kcal} kcal per 100 {unit}",
+  "@foodKcalPer100": {
+    "placeholders": {
+      "kcal": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "foodNoNutrition": "No nutrition data",
+  "foodSourceOff": "Open Food Facts",
+  "foodSourceCustom": "Custom food",
+  "foodUnnamed": "Unnamed product",
+  "foodDetailsLoading": "Loading product details",
+  "foodDetailsFallback": "The details could not be loaded. The values from the search are used.",
+  "foodFavoriteAdded": "Added to favorites",
+  "foodFavoriteRemoved": "Removed from favorites",
+  "foodDeleteLibraryTitle": "Delete food?",
+  "foodDeleteLibraryMessage": "“{name}” is removed from your library. Entries you already logged stay as they are.",
+  "@foodDeleteLibraryMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "entryAddTitle": "Add entry",
+  "entryEditTitle": "Edit entry",
+  "entryAmount": "Amount",
+  "entryUnit": "Unit",
+  "entryServingSize": "One serving equals",
+  "entryServingRequired": "Please enter the size of one serving.",
+  "entryServingInfo": "1 serving = {amount} {unit}",
+  "@entryServingInfo": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "entryPreview": "Nutrition for this amount",
+  "entryMeal": "Meal",
+  "entryFavoriteAdd": "Add to favorites",
+  "entryFavoriteRemove": "Remove from favorites",
+  "entryDelete": "Delete entry",
+  "entryCopyToCustom": "Copy as custom food",
+  "entryDataSource": "Data: Open Food Facts (ODbL)",
+  "entryPreparedNote": "The values refer to the prepared product.",
+  "entryIncompleteData": "This product is missing nutrition data.",
+  "entryAddedToMeal": "Added “{name}” to {meal}",
+  "@entryAddedToMeal": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "meal": {
+        "type": "String"
+      }
+    }
+  },
+  "entryUpdated": "Entry updated",
+  "customTitleNew": "Custom food",
+  "customTitleEdit": "Edit food",
+  "customName": "Name",
+  "customBrand": "Brand (optional)",
+  "customBarcode": "Barcode (optional)",
+  "customBasis": "The nutrition values refer to",
+  "customPer100g": "100 g",
+  "customPer100ml": "100 ml",
+  "customServing": "Serving size (optional)",
+  "customServingLabel": "Label (optional)",
+  "customSectionMain": "Main nutrients per 100 {unit}",
+  "@customSectionMain": {
+    "placeholders": {
+      "unit": {
+        "type": "String"
+      }
+    }
+  },
+  "customSectionMore": "More nutrients",
+  "customSectionVitamins": "Vitamins",
+  "customSectionMinerals": "Minerals",
+  "customFavorite": "Mark as favorite",
+  "customNoteEntries": "Changes also apply to entries already logged with this food.",
+  "customSaltSodium": "If only salt or only sodium is given, the other one is calculated.",
+  "customSaved": "Saved “{name}”",
+  "@customSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nutrientsTitle": "Nutrients",
+  "nutrientsGroupMain": "Energy and main nutrients",
+  "nutrientsGroupMore": "More nutrients",
+  "nutrientsGroupVitamins": "Vitamins",
+  "nutrientsGroupMinerals": "Minerals",
+  "nutrientsDashHint": "A dash (–) stands for missing data in the logged entries.",
+  "trendsRange7": "7 days",
+  "trendsRange28": "28 days",
+  "trendsMetric": "Show",
+  "trendsAverage": "Average: {value} ({days} of {total} days logged)",
+  "@trendsAverage": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "trendsMinMax": "Lowest value {min}, highest value {max}",
+  "@trendsMinMax": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "trendsNoData": "No values are logged in the selected period.",
+  "trendsGoal": "Goal",
+  "trendsChartHint": "Tap a bar to see its value",
+  "trendsNoDataDay": "no data",
+  "trendsSummary": "{metric}, {range}. Average {avg}. {days} of {total} days with data.",
+  "@trendsSummary": {
+    "placeholders": {
+      "metric": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      },
+      "avg": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "historyTitle": "History",
+  "historySearchHint": "Search (name, note, symptom …)",
+  "historyAreas": "Areas",
+  "historyPeriod": "Period",
+  "historyPreset7": "Last 7 days",
+  "historyPreset28": "Last 28 days",
+  "historyPreset90": "Last 90 days",
+  "historyPresetAll": "All time",
+  "historyCustomRange": "Choose range",
+  "historyCount": "{count, plural, =0{No entries} =1{1 entry} other{{count} entries}}",
+  "@historyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyEmpty": "No entries found. Adjust the search term or filters.",
+  "historyClearFilters": "Reset filters",
+  "historyPeriodTitle": "Period {from} to {to}",
+  "@historyPeriodTitle": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "historyPeriodOpen": "Period from {from} (ongoing)",
+  "@historyPeriodOpen": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "historySymptomTitle": "{name} · {intensity} of 10",
+  "@historySymptomTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "intensity": {
+        "type": "String"
+      }
+    }
+  },
+  "historyCaffeineTitle": "{mg} mg caffeine",
+  "@historyCaffeineTitle": {
+    "placeholders": {
+      "mg": {
+        "type": "String"
+      }
+    }
+  },
+  "weightAdd": "Log weight",
+  "weightEditTitle": "Edit weight entry",
+  "weightValueLabel": "Weight",
+  "weightLatest": "Latest: {value} on {date}",
+  "@weightLatest": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "weightChange": "{delta} compared with the previous entry",
+  "@weightChange": {
+    "placeholders": {
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "weightNoEntries": "No weight logged yet.",
+  "weightRange90": "90 days",
+  "weightRangeAll": "All",
+  "weightChartSummary": "Weight trend, {range}. First value {first}, last value {last}, {count, plural, =1{1 entry} other{{count} entries}}.",
+  "@weightChartSummary": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      },
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "weightStats": "Lowest value {min}, highest value {max}, change {delta}",
+  "@weightStats": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "weightChartHint": "Tap a point to see its value",
+  "weightEntriesTitle": "Entries",
+  "weightNoteHint": "Note (optional)",
+  "weightNoRange": "No weight is logged in the selected period.",
+  "symptomAdd": "Log symptom",
+  "symptomEditTitle": "Edit symptom",
+  "symptomNameLabel": "Name of the symptom",
+  "symptomIntensity": "Intensity",
+  "symptomIntensityValue": "{value} of 10",
+  "@symptomIntensityValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomIntensityHint": "0 = barely noticeable, 10 = very strong",
+  "symptomRecent": "Recently used",
+  "symptomTabDay": "Day",
+  "symptomTabHistory": "Trend",
+  "symptomNoEntries": "No symptoms are logged on this day.",
+  "symptomPick": "Choose symptom",
+  "symptomStats": "{count, plural, =1{1 entry} other{{count} entries}}, average {avg} of 10, maximum {max}",
+  "@symptomStats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomNoHistory": "No symptoms logged yet. Once you log one, its trend appears here.",
+  "symptomChartSummary": "Trend of {name}, {range}. {count, plural, =1{1 entry} other{{count} entries}}, average {avg} of 10.",
+  "@symptomChartSummary": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomLogged": "Logged “{name}”",
+  "@symptomLogged": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomEntryTitle": "{name}, intensity {intensity} of 10",
+  "@symptomEntryTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "intensity": {
+        "type": "String"
+      }
+    }
+  },
+  "symptomNoInRange": "This symptom is not logged in the selected period.",
+  "cycleTabCalendar": "Calendar",
+  "cycleTabHistory": "History",
+  "cycleForecastTitle": "Estimate",
+  "cycleStateAsOf": "As of {date}",
+  "@cycleStateAsOf": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleNoDataTitle": "No periods recorded yet",
+  "cycleNoDataBody": "Once two period starts are recorded, MorphHealth estimates the next start from your own intervals.",
+  "cycleInsufficientTitle": "More data is needed for an estimate",
+  "cycleInsufficientBody": "A cycle needs two period starts. Record more periods or set a typical cycle length in the settings.",
+  "cycleInPeriodTitle": "Day {day} of your period",
+  "@cycleInPeriodTitle": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cyclePredictedIn": "{days, plural, =0{Expected to start today} =1{Expected to start tomorrow} other{Expected to start in {days} days}}",
+  "@cyclePredictedIn": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleNextStart": "Expected start: {date}",
+  "@cycleNextStart": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleWindowLine": "Likely window: {from} to {to}",
+  "@cycleWindowLine": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleOverdueTitle": "The calculated start was {days, plural, =1{1 day} other{{days} days}} ago",
+  "@cycleOverdueTitle": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleOverdueBody": "No new period is recorded yet. Enter the start as soon as it happens.",
+  "cycleStaleTitle": "Your last recorded start was a long time ago",
+  "cycleStaleBody": "Entries are probably missing, so there is no current estimate.",
+  "cycleDisabledTitle": "Forecast switched off",
+  "cycleDisabledBody": "The cycle area works as a plain diary. You can switch the forecast on in the settings.",
+  "cycleCycleDay": "Cycle day {day}",
+  "@cycleCycleDay": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleConfidence": "Reliability: {level}",
+  "@cycleConfidence": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleConfHigh": "high",
+  "cycleConfMedium": "medium",
+  "cycleConfLow": "low",
+  "cycleExplainButton": "How is this estimate made?",
+  "cycleExplainTitle": "Explanation of the estimate",
+  "cycleExplainIntervals": "Intervals between period starts",
+  "cycleExplainUsed": "used",
+  "cycleExplainTooShort": "not used: under 15 days",
+  "cycleExplainTooLong": "not used: over 60 days",
+  "cycleExplainOlder": "not used: older than the last 6 cycles",
+  "cycleExplainNoIntervals": "No intervals yet.",
+  "cycleIntervalRow": "{from} to {to}: {days} days",
+  "@cycleIntervalRow": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStartToday": "Period starts today",
+  "cycleStartOnDay": "Period starts on {date}",
+  "@cycleStartOnDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndToday": "Period ends today",
+  "cycleEndOnDay": "Period ends on {date}",
+  "@cycleEndOnDay": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStartedSnack": "Period from {date} logged",
+  "@cycleStartedSnack": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndedSnack": "End of period on {date} logged",
+  "@cycleEndedSnack": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleAddPeriod": "Log period",
+  "cycleEditPeriod": "Edit period",
+  "cycleStart": "Start",
+  "cycleEnd": "End",
+  "cycleOngoing": "Still ongoing (no end recorded)",
+  "cycleFlow": "Flow",
+  "cycleNotes": "Notes",
+  "cycleOverlap": "The period overlaps an existing period ({from} to {to}).",
+  "@cycleOverlap": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndBeforeStart": "The end is before the start.",
+  "cycleTooLong": "A period can span at most 60 days.",
+  "cycleMonthPrev": "Previous month",
+  "cycleMonthNext": "Next month",
+  "cycleMonthPick": "Choose month",
+  "cycleLegendPeriod": "Period",
+  "cycleLegendPredicted": "Expected",
+  "cycleLegendWindow": "Window",
+  "cycleLegendSymptom": "Symptoms logged",
+  "cycleFlowOnDay": "Flow on this day",
+  "cycleFlowRemove": "Remove",
+  "cycleDaySymptoms": "Symptoms on this day",
+  "cycleAddSymptomHere": "Add symptom",
+  "cycleOpenDayDetail": "Open day detail",
+  "cycleDayInPeriod": "Period, day {day}",
+  "@cycleDayInPeriod": {
+    "placeholders": {
+      "day": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleDayNoPeriod": "No period on this day.",
+  "cycleDayPredicted": "Expected period day",
+  "cycleHistoryEmpty": "No periods recorded yet.",
+  "cycleHistoryDays": "{days, plural, =1{1 day} other{{days} days}}",
+  "@cycleHistoryDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleHistoryCycle": "Cycle {days} days",
+  "@cycleHistoryCycle": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleEndMissing": "End missing",
+  "cycleHistoryOngoing": "ongoing",
+  "cycleStatsTitle": "Numbers from your history",
+  "cycleStatsAvg": "Average cycle length: {value} days",
+  "@cycleStatsAvg": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStatsPeriod": "Average period length: {value} days",
+  "@cycleStatsPeriod": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleStatsCount": "{count, plural, =1{1 period recorded} other{{count} periods recorded}}",
+  "@cycleStatsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cycleSpottingNote": "Spotting only: does not count as a period start for the estimate.",
+  "cycleDeleteTitle": "Delete period?",
+  "cycleDeleteMessage": "The period from {date} will be deleted.",
+  "@cycleDeleteMessage": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cycleLegendToday": "Today",
+  "dayDetailTitle": "Day detail",
+  "overviewCustomize": "Customize areas",
+  "overviewCustomizeHint": "Hidden areas stay saved and can be shown again at any time.",
+  "overviewRangeDay": "Day",
+  "overviewOpenDay": "Day detail",
+  "overviewNothingVisible": "All areas are hidden. Choose at least one under “Customize areas”.",
+  "overviewSettings": "Settings",
+  "overviewWeightNone": "No weight logged yet",
+  "overviewSymptomsNone": "No symptoms logged on this day",
+  "overviewAverageKcal": "Average {value} kcal on {days} of {total} days",
+  "@overviewAverageKcal": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewWaterAverage": "Water: average {value} ml",
+  "@overviewWaterAverage": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewCyclePeriods": "{count, plural, =0{No period in this range} =1{1 period in this range} other{{count} periods in this range}}",
+  "@overviewCyclePeriods": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "overviewTopSymptoms": "Most frequent symptoms",
+  "overviewSymptomCount": "{count, plural, =1{1 entry} other{{count} entries}}, average {avg} of 10",
+  "@overviewSymptomCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewWeightRange": "From {first} to {last} ({delta})",
+  "@overviewWeightRange": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "last": {
+        "type": "String"
+      },
+      "delta": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewOpenArea": "Open {area}",
+  "@overviewOpenArea": {
+    "placeholders": {
+      "area": {
+        "type": "String"
+      }
+    }
+  },
+  "overviewNoDataRange": "No entries are logged in this range.",
+  "settingsTitle": "Settings",
+  "settingsLanguage": "Language",
+  "langGerman": "Deutsch",
+  "langEnglish": "English",
+  "settingsWeightUnit": "Weight unit",
+  "settingsAreas": "Areas in the overview",
+  "settingsGoals": "Daily goals",
+  "settingsGoalsSubtitle": "Optional: water, calories, protein, carbohydrates, fat",
+  "goalsHint": "All goals are optional. An empty field means no goal. You choose the values.",
+  "goalWater": "Water",
+  "goalEnergy": "Calories",
+  "goalSaved": "Goals saved",
+  "settingsCycleSection": "Cycle",
+  "settingsForecast": "Show forecast",
+  "settingsForecastHint": "When switched off, the cycle area works as a diary only.",
+  "settingsExpectedCycle": "Typical cycle length in days (optional)",
+  "settingsExpectedCycleHint": "Only used until a complete cycle is recorded. Allowed: 15 to 60 days.",
+  "settingsOnlineSection": "Online food search",
+  "settingsOnlineSwitch": "Use Open Food Facts",
+  "settingsOnlineHint": "Only the search term or barcode number is sent to the service. Without this feature the app works entirely locally.",
+  "settingsServer": "Food API server",
+  "settingsServerHint": "HTTPS origin, for example https://world.openfoodfacts.org",
+  "settingsServerInvalid": "Please enter an HTTPS origin without a path, for example https://world.openfoodfacts.org.",
+  "settingsServerReset": "Use default",
+  "settingsServerDefault": "Default: {url}",
+  "@settingsServerDefault": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsServerSaved": "Server saved",
+  "settingsTheme": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "settingsPrivacySection": "Privacy",
+  "settingsSecure": "Block screenshots",
+  "settingsSecureHint": "Blocks screenshots and the preview in the recent apps list.",
+  "settingsData": "Data and backup",
+  "settingsDataSubtitle": "Export, import, encrypted backup, delete",
+  "settingsAbout": "About MorphHealth",
+  "aboutText": "MorphHealth stores all data encrypted on this device. There is no account, no advertising and no telemetry. Nutrition data comes from Open Food Facts (ODbL).",
+  "aboutMedical": "MorphHealth is for personal documentation and planning. It does not replace medical advice and does not calculate diagnoses, ovulation or fertile days.",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutLicenses": "Open source licenses",
+  "dataTitle": "Data and backup",
+  "dataExportTitle": "Data export (JSON)",
+  "dataExportHint": "Complete, machine-readable export of all data. The format is described in the README. The file is not encrypted.",
+  "dataExportButton": "Export",
+  "dataExportWarnTitle": "Unencrypted export",
+  "dataExportWarnMessage": "The file contains all your health data in plain text. Only save it somewhere you trust.",
+  "dataExportDone": "Export saved: {name}",
+  "@dataExportDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportTitle": "Data import (JSON)",
+  "dataImportHint": "Replaces all existing data with the content of an export file.",
+  "dataImportButton": "Choose file",
+  "dataImportPreviewTitle": "Check import",
+  "dataImportSummary": "The file contains {count} records.",
+  "@dataImportSummary": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportWarnings": "{count} notes while checking",
+  "@dataImportWarnings": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataImportReplaceWarning": "All existing data will be replaced.",
+  "dataImportConfirm": "Replace",
+  "dataImportInvalid": "The file is invalid",
+  "dataImportInvalidJson": "The file is not valid JSON.",
+  "dataImportDone": "Import complete: {count} records",
+  "@dataImportDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataBackupTitle": "Encrypted backup",
+  "dataBackupHint": "Backup protected by a passphrase (AES-256, Argon2id). It can be restored on a fresh installation.",
+  "dataBackupCreate": "Create backup",
+  "dataPassphrase": "Passphrase",
+  "dataPassphraseRepeat": "Repeat passphrase",
+  "dataPassphraseMismatch": "The passphrases do not match.",
+  "dataPassphraseShort": "At least {min} characters.",
+  "@dataPassphraseShort": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      }
+    }
+  },
+  "dataBackupWarning": "The backup cannot be opened without the passphrase. It cannot be reset.",
+  "dataBackupDone": "Backup saved: {name}",
+  "@dataBackupDone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dataRestoreTitle": "Restore backup",
+  "dataRestoreHint": "Replaces all existing data with the content of a backup.",
+  "dataRestoreButton": "Choose backup",
+  "dataRestoreWrong": "Wrong passphrase or damaged file.",
+  "dataRestoreNotBackup": "The file is not a MorphHealth backup.",
+  "dataRestoreDone": "Restored: {count} records",
+  "@dataRestoreDone": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "dataWorking": "Please wait a moment …",
+  "dataWipeTitle": "Delete all local data",
+  "dataWipeHint": "Deletes all entries, foods and settings on this device and renews the key.",
+  "dataWipeButton": "Delete everything",
+  "dataWipeConfirmTitle": "Really delete everything?",
+  "dataWipeConfirmMessage": "All entries, custom foods, favorites and settings are deleted permanently. Exports and backups you saved outside the app remain.",
+  "dataWipeDone": "All data has been deleted.",
+  "dataFileTooLarge": "The file is too large.",
+  "bootFailedWrongKey": "The stored key does not match the data. This happens when the device was reset or the key was deleted.",
+  "bootFailedCorrupt": "The data is damaged.",
+  "bootFailedLocked": "The data is in use by another process.",
+  "bootFailedKey": "The device master key could not be read.",
+  "bootFailedIo": "The storage could not be accessed.",
+  "bootRestore": "Restore from backup",
+  "bootStartFresh": "Start fresh (delete all data)",
+  "waterTotalLabel": "Total",
+  "unitPortions": "servings",
+  "errAmountInvalid": "The amount must be greater than 0.",
+  "errServingNeeded": "Portions need a serving size.",
+  "errWeightRange": "The weight is outside the allowed range (1 to 700 kg).",
+  "errSymptomInvalid": "A symptom needs a name and an intensity from 0 to 10.",
+  "errFoodInvalid": "A food needs a name, and a serving size must be greater than 0.",
+  "errRecordInvalid": "These values cannot be saved as entered (too long or invalid).",
+  "errNothingToRemove": "No period is recorded on this day.",
+  "errBackupUnsupported": "This backup comes from another version or uses invalid parameters.",
+  "errBackupCorrupt": "The content of the backup is damaged.",
+  "errPickerBusy": "A file picker is already open.",
+  "dataRestorePreviewTitle": "Check backup"
+}

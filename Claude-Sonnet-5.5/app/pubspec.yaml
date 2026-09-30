@@ -1,0 +1,30 @@
+name: morphhealth
+description: "MorphHealth: Ernährungstagebuch, persönlicher Periodentracker, Gewicht und Symptome. Lokal, verschlüsselt, ohne Konto."
+publish_to: 'none'
+
+# 1.0.0 = Produktstand für MH-PERSONAL-3 (1.0-rc3). Die Build-Nummer zählt hoch.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+# Bewusst klein gehalten. Der Kern (lib/core) ist reines Dart und wird von der
+# Android-App und vom Wartungszugang (bin/mh.dart) gemeinsam genutzt.
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cryptography: ^2.9.0
+  # Textlängen zählen wie die Eingabefelder: in Graphemen (Zeichen), nicht in UTF-16-Einheiten.
+  characters: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
