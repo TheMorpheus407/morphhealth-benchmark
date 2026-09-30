@@ -1,0 +1,12 @@
+.cache/
+app/.dart_tool/
+app/build/
+app/android/.gradle/
+app/android/local.properties
+artifacts/test-data/
+artifacts/mh-core
+*.tmp
+
+.signing/
+__pycache__/
+*.pyc

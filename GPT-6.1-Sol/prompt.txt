@@ -1,0 +1,1 @@
+Setze den Auftrag in SPEC.md vollständig um. ENVIRONMENT.json beschreibt die Umgebung und ist schreibgeschützt. Arbeite ausschließlich in diesem Ordner.

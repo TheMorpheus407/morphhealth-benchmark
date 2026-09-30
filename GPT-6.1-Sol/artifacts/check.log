@@ -1,0 +1,34 @@
+Resolving dependencies in `app`...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.14 available)
+  vector_math 2.2.0 (2.4.3 available)
+Got dependencies in `app`!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Formatted 20 files (0 changed) in 0.09 seconds.
+Analyzing app...                                                
+No issues found! (ran in 0.9s)
+00:00 +0: loading /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart
+00:00 +0: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: all 31 nutrients scale in g, ml and servings; missing is distinct from zero
+00:00 +1: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: food corrections do not change old snapshots; updates invalidate day index
+00:00 +2: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: strict import rejects invalid data without changing encrypted live data
+00:00 +3: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: personal median, variability and past-window handling without future leakage
+00:00 +4: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: daily bleeding overrides ranges, including explicit none, without creating starts
+00:00 +5: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: encrypted file reload and authenticated tamper/wrong-key rejection
+00:00 +6: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:01 +7: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:01 +8: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:02 +9: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:02 +10: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:02 +11: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: passphrase backup restores on a new installation and authenticates metadata
+00:06 +12: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: actual OFF legacy and v3.6 normalized units and complete mapping
+00:06 +13: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/app/test/core_test.dart: unified history filters include overlapping periods and German/English labels
+00:06 +14: All tests passed!
+JSONL, persistent encryption, OFF v3.6/search, validation, restart and 10,000-row checks passed.
+{"off_search_count": 12624, "off_lookup_barcode": "5411188112709", "10000_import_seconds": 0.702, "28_day_queries_seconds": 0.004, "10000_export_seconds": 0.134, "encrypted_10000_bytes": 10360024}

@@ -1,0 +1,2 @@
+JSONL, persistent encryption, OFF v3.6/search, validation, restart and 10,000-row checks passed.
+{"off_search_count": 12624, "off_lookup_barcode": "5411188112709", "10000_import_seconds": 0.67, "28_day_queries_seconds": 0.004, "10000_export_seconds": 0.129, "encrypted_10000_bytes": 10360024}

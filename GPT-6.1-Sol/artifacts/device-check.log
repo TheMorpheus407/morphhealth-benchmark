@@ -1,0 +1,23 @@
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/artifacts/device-example.json: 1 file pushed, 0 skipped. 131.3 MB/s (3617 bytes in 0.000s)
+/home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/GPT-6.1-Sol/artifacts/device-10000.json: 1 file pushed, 0 skipped. 1020.3 MB/s (1179702 bytes in 0.001s)
+Release APK installed and started; German default; no account
+Selecting external-storage root: [168,766][714,817]
+Native Android document picker: full JSON import
+Weight entry corrected through unified history
+Symptom name corrected; existing intensity and note preserved
+Ongoing period ended and saved
+Daily spotting override, personal forecast, calendar and older month navigation
+Quick water and additional caffeine are logged in nutrition
+Real HTTPS name search using the configured origin and CA trust
+Real v3.6 barcode lookup, favourite and consumption logging
+Consumption edit preserves serving size and updates nutrient totals
+Passphrase backup encrypted and saved with Android CREATE_DOCUMENT
+Selecting external-storage root: [168,766][714,817]
+Backup restored on a fresh app/key installation; edited amounts and weight verified
+Full native plaintext export validated against all changed areas; backup contains ciphertext
+Encrypted Android persistence survives process restart
+Selecting external-storage root: [168,766][714,817]
+10,000-entry Android dataset: history, editing, 28-day nutrition trend
+English UI and enlarged Android fonts checked
+All local data and settings deleted through the product UI
+All device checks passed.

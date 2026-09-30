@@ -1,0 +1,6 @@
+{
+  "exclusive_concurrent_writer_rejected": true,
+  "second_exit_code": 2,
+  "second_stdout_empty": true,
+  "first_eof_exit_code": 0
+}

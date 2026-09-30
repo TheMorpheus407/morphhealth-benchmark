@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd -- "$(dirname -- "$0")" && pwd)"
+cd "$ROOT"
+export PUB_CACHE="$ROOT/.cache/pub"
+export XDG_CONFIG_HOME="$ROOT/.cache/config"
+readarray -t FOOD_CONFIG < <(python3 - "$ROOT/ENVIRONMENT.json" <<'PY'
+import json,sys
+e=json.load(open(sys.argv[1]))
+print(e['food_api_base_url'])
+print(e['food_api_user_agent'])
+PY
+)
+export MH_FOOD_BASE_URL="${FOOD_CONFIG[0]}"
+export MH_FOOD_USER_AGENT="${FOOD_CONFIG[1]}"
+if [[ -x artifacts/mh-core ]]; then
+  exec artifacts/mh-core "$@"
+fi
+if [[ ! -f app/.dart_tool/package_config.json ]]; then
+  flutter pub get --enforce-lockfile --directory app >&2
+fi
+exec dart --packages=app/.dart_tool/package_config.json app/tool/mh.dart "$@"

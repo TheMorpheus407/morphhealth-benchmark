@@ -1,0 +1,162 @@
+{
+  "format": "morphhealth",
+  "version": 1,
+  "exported_at": "2026-09-20T12:00:00.000",
+  "settings": {
+    "language": "de",
+    "weight_unit": "kg",
+    "sections": {
+      "nutrition": true,
+      "cycle": true,
+      "weight": true,
+      "symptoms": true
+    },
+    "goals": {},
+    "online_enabled": false,
+    "cycle_prediction": true
+  },
+  "foods": [
+    {
+      "id": "example-oats",
+      "name": "Haferflocken",
+      "name_en": "Oats",
+      "source": "custom",
+      "base_unit": "g",
+      "serving_size": 40,
+      "grams_per_ml": null,
+      "favorite": true,
+      "nutrients": {
+        "calories": 370,
+        "protein": 13,
+        "carbs": 59,
+        "fat": 7,
+        "saturated_fat": null,
+        "sugar": null,
+        "fiber": null,
+        "salt": null,
+        "sodium": null,
+        "caffeine": null,
+        "vitamin_a": null,
+        "vitamin_c": null,
+        "vitamin_d": null,
+        "vitamin_e": null,
+        "vitamin_k": null,
+        "vitamin_b1": null,
+        "vitamin_b2": null,
+        "vitamin_b3": null,
+        "vitamin_b5": null,
+        "vitamin_b6": null,
+        "vitamin_b7": null,
+        "vitamin_b9": null,
+        "vitamin_b12": null,
+        "calcium": null,
+        "iron": null,
+        "magnesium": null,
+        "potassium": null,
+        "zinc": null,
+        "selenium": null,
+        "iodine": null,
+        "phosphorus": null
+      }
+    }
+  ],
+  "consumption": [
+    {
+      "id": "example-meal",
+      "at": "2026-09-20T08:00:00",
+      "food_id": "example-oats",
+      "food": {
+        "id": "example-oats",
+        "name": "Haferflocken",
+        "name_en": "Oats",
+        "source": "custom",
+        "base_unit": "g",
+        "serving_size": 40,
+        "grams_per_ml": null,
+        "favorite": true,
+        "nutrients": {
+          "calories": 370,
+          "protein": 13,
+          "carbs": 59,
+          "fat": 7,
+          "saturated_fat": null,
+          "sugar": null,
+          "fiber": null,
+          "salt": null,
+          "sodium": null,
+          "caffeine": null,
+          "vitamin_a": null,
+          "vitamin_c": null,
+          "vitamin_d": null,
+          "vitamin_e": null,
+          "vitamin_k": null,
+          "vitamin_b1": null,
+          "vitamin_b2": null,
+          "vitamin_b3": null,
+          "vitamin_b5": null,
+          "vitamin_b6": null,
+          "vitamin_b7": null,
+          "vitamin_b9": null,
+          "vitamin_b12": null,
+          "calcium": null,
+          "iron": null,
+          "magnesium": null,
+          "potassium": null,
+          "zinc": null,
+          "selenium": null,
+          "iodine": null,
+          "phosphorus": null
+        }
+      },
+      "amount": 1,
+      "unit": "portion",
+      "meal": "breakfast",
+      "note": ""
+    }
+  ],
+  "drinks": [
+    {
+      "id": "example-water",
+      "at": "2026-09-20T08:15:00",
+      "kind": "water",
+      "amount": 250
+    }
+  ],
+  "weights": [
+    {
+      "id": "example-weight",
+      "date": "2026-09-20",
+      "kg": 70
+    }
+  ],
+  "periods": [
+    {
+      "id": "example-period-1",
+      "start": "2026-07-25",
+      "end": "2026-07-29",
+      "strength": "medium"
+    },
+    {
+      "id": "example-period-2",
+      "start": "2026-08-22",
+      "end": "2026-08-26",
+      "strength": "light"
+    },
+    {
+      "id": "example-period-3",
+      "start": "2026-09-20",
+      "end": null,
+      "strength": "medium"
+    }
+  ],
+  "bleeding": [],
+  "symptoms": [
+    {
+      "id": "example-symptom",
+      "at": "2026-09-20T09:00:00",
+      "name": "Kopfschmerz",
+      "intensity": 3,
+      "note": "Nach dem Aufstehen"
+    }
+  ]
+}

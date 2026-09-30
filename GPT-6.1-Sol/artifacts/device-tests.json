@@ -1,0 +1,31 @@
+{
+  "device": "emulator-5560",
+  "api": 35,
+  "synthetic_data": true,
+  "checks": [
+    "Release APK installed and started; German default; no account",
+    "Native Android document picker: full JSON import",
+    "Weight entry corrected through unified history",
+    "Symptom name corrected; existing intensity and note preserved",
+    "Ongoing period ended and saved",
+    "Daily spotting override, personal forecast, calendar and older month navigation",
+    "Quick water and additional caffeine are logged in nutrition",
+    "Real HTTPS name search using the configured origin and CA trust",
+    "Real v3.6 barcode lookup, favourite and consumption logging",
+    "Consumption edit preserves serving size and updates nutrient totals",
+    "Passphrase backup encrypted and saved with Android CREATE_DOCUMENT",
+    "Backup restored on a fresh app/key installation; edited amounts and weight verified",
+    "Full native plaintext export validated against all changed areas; backup contains ciphertext",
+    "Encrypted Android persistence survives process restart",
+    "10,000-entry Android dataset: history, editing, 28-day nutrition trend",
+    "English UI and enlarged Android fonts checked",
+    "All local data and settings deleted through the product UI",
+    "Final APK: ongoing period does not invent future bleeding; personal forecast and precise close-range chart labels",
+    "Final APK installed and started; clean German state"
+  ],
+  "10000_import_ui_seconds_including_adb": 5.166,
+  "passed": true,
+  "measured_at": "2026-09-30T05:51:29",
+  "final_apk_sha256": "29d71bfe177ddff6c67436e4bb7f5982a5879289ae4346d9768a9d279a393134",
+  "final_checked_at": "2026-09-30T06:02:30"
+}
