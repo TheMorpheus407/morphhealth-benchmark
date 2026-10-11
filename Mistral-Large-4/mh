@@ -1,0 +1,30 @@
+#!/bin/sh
+# MorphHealth — lokaler Wartungszugang `mh` (SPEC P10), Starter.
+#
+# Aufruf:
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# Der Starter exec'd das von build.sh AOT-kompililierte Binary
+# artifacts/mh-cli/bundle/bin/mh und setzt die Standardwerte dieser
+# Umgebung (ENVIRONMENT.json: food_api_base_url / food_api_user_agent)
+# als Umgebungsvariablen. precedence (niedrig nach hoch):
+#   MH_FOOD_BASE_URL / MH_FOOD_USER_AGENT (Umgebung, vom Starter vorbelegt)
+#   -> --food-base-url / --food-user-agent (Kommandozeile, gewinnt)
+# Ohne gesetzte Variablen gilt der Produkt-Default
+# https://world.openfoodfacts.org (siehe app/bin/mh.dart).
+set -eu
+
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+MH_BIN="$ROOT/artifacts/mh-cli/bundle/bin/mh"
+
+if [ ! -x "$MH_BIN" ]; then
+  echo "mh: $MH_BIN fehlt oder ist nicht ausführbar — zuerst ./build.sh ausführen." >&2
+  exit 1
+fi
+
+MH_FOOD_BASE_URL="${MH_FOOD_BASE_URL:-https://localhost:8788}"
+MH_FOOD_USER_AGENT="${MH_FOOD_USER_AGENT:-MorphHealth/1.0-rc3 (benchmark build)}"
+export MH_FOOD_BASE_URL MH_FOOD_USER_AGENT
+
+exec "$MH_BIN" "$@"
