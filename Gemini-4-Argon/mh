@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN_PATH="$SCRIPT_DIR/app/build/mh_cli/mh_bin"
+
+if [[ ! -x "$BIN_PATH" ]]; then
+  mkdir -p "$(dirname "$BIN_PATH")"
+  (cd "$SCRIPT_DIR/app" && dart compile exe bin/mh.dart -o "$BIN_PATH" >/dev/null 2>&1)
+fi
+
+exec "$BIN_PATH" "$@"

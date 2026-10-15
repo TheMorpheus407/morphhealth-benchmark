@@ -28,6 +28,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`Claude-Sonnet-5.5/`](Claude-Sonnet-5.5/) | Claude Sonnet 5.5 | 2026-09-29 |
 | [`GPT-6.1-Sol/`](GPT-6.1-Sol/) | GPT-6.1 Sol | 2026-09-30 |
 | [`Mistral-Large-4/`](Mistral-Large-4/) | Mistral Large 4 | 2026-10-07 |
+| [`Gemini-4-Argon/`](Gemini-4-Argon/) | Gemini 4 Argon | 2026-10-15 |
 
 Build outputs, caches, IDE state, signing keys and harness configuration are
 left out (see [`.gitignore`](.gitignore)); a `.gitignore` written by a model
