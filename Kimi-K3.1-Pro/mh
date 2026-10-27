@@ -1,0 +1,22 @@
+#!/bin/sh
+set -eu
+ROOT=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+export PUB_CACHE="${PUB_CACHE:-$ROOT/.pub-cache}"
+export GRADLE_USER_HOME="${GRADLE_USER_HOME:-$ROOT/.gradle}"
+export TMPDIR="${TMPDIR:-$ROOT/.tmp}"
+mkdir -p "$TMPDIR"
+if [ -f "$ROOT/ENVIRONMENT.json" ]; then
+  MH_FOOD_BASE_URL=$(python3 -c 'import json; print(json.load(open("'"$ROOT"'/ENVIRONMENT.json"))["food_api_base_url"])')
+  MH_FOOD_USER_AGENT=$(python3 -c 'import json; print(json.load(open("'"$ROOT"'/ENVIRONMENT.json"))["food_api_user_agent"])')
+  export MH_FOOD_BASE_URL MH_FOOD_USER_AGENT
+fi
+cd "$ROOT/app"
+if [ ! -f .dart_tool/package_config.json ]; then
+  dart pub get --enforce-lockfile >/dev/null
+fi
+BIN="$ROOT/app/build/mh/bundle/bin/mh"
+if [ ! -x "$BIN" ] || [ -n "$(find "$ROOT/app/lib/core" "$ROOT/app/bin" -name '*.dart' -newer "$BIN" -print -quit)" ]; then
+  mkdir -p "$ROOT/app/build/mh"
+  dart build cli --target=bin/mh.dart --output="$ROOT/app/build/mh" --verbosity=error >&2
+fi
+exec "$BIN" "$@"
