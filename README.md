@@ -30,6 +30,7 @@ at the end of its run, including its own copy of the inputs above.
 | [`Mistral-Large-4/`](Mistral-Large-4/) | Mistral Large 4 | 2026-10-07 |
 | [`Gemini-4-Argon/`](Gemini-4-Argon/) | Gemini 4 Argon | 2026-10-15 |
 | [`Kimi-K3.1-Pro/`](Kimi-K3.1-Pro/) | Kimi K3.1 Pro | 2026-10-24 |
+| [`MiniMax-M3.1-Flash/`](MiniMax-M3.1-Flash/) | MiniMax M3.1 Flash | 2026-10-23 |
 
 Build outputs, caches, IDE state, signing keys and harness configuration are
 left out (see [`.gitignore`](.gitignore)); a `.gitignore` written by a model

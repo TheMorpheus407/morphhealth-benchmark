@@ -1,0 +1,16 @@
+name: morphhealth_core
+description: Shared MorphHealth domain core (pure Dart).
+version: 1.0.0
+publish_to: "none"
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  cryptography: 2.9.0
+  meta: ">=1.17.0 <2.0.0"
+  path: 1.9.1
+
+dev_dependencies:
+  lints: 6.1.0
+  test: 1.33.0

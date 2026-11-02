@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+#
+# MorphHealth – local maintenance access (JSON lines over stdin/stdout).
+#
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# The process runs the same product code as the Android app: the same
+# encrypted store, the same nutrition and cycle logic and the same Open Food
+# Facts client. See README.md for the complete protocol description.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CORE="$ROOT/app/packages/morphhealth_core"
+COMPILED="$ROOT/build/mh"
+
+if [ "${1:-}" = "--help" ] || [ "${1:-}" = "-h" ]; then
+  exec dart run "$CORE/bin/mh.dart" --help
+fi
+
+if [ -x "$COMPILED" ]; then
+  exec "$COMPILED" "$@"
+fi
+
+cd "$CORE"
+if [ ! -f .dart_tool/package_config.json ]; then
+  echo "mh: resolving dependencies ..." >&2
+  dart pub get >&2
+fi
+
+exec dart run bin/mh.dart "$@"
