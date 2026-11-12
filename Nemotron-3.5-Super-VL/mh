@@ -1,0 +1,15 @@
+#!/bin/sh
+# mh — lokaler JSON-Lines-Wartungszugang zu MorphHealth (SPEC P10).
+#
+# Usage:
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# data-dir: persistenter Arbeitsdatenbestand.
+# key-file: 32 Rohbyte (AES-256-Schluessel), ausserhalb des Datenverzeichnisses.
+# --now: fachliche Uhr fuer diesen Prozess (ohne: Systemuhr).
+#
+# Pro Zeile ein JSON-Request mit request_id und op. Pro Request eine
+# JSON-Antwort mit request_id, ok und data oder error auf stdout. EOF beendet.
+DIR=$(cd "$(dirname "$0")" && pwd)
+exec dart run "$DIR/app/tool/mh/main.dart" "$@"

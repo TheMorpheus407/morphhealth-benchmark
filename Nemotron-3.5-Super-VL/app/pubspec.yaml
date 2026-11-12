@@ -1,0 +1,48 @@
+name: morphhealth
+description: "MorphHealth — Ernährungstagebuch, Periodentracker, Gewicht und Symptome. Lokal, verschlüsselt, ohne Konto."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Lokale Lebensmittelsuche nach Open-Food-Facts-Vertrag (lesend)
+  http: ^1.4.0
+
+  # Datums- und Uhrzeitformatierung, Lokalisierung
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+  # Verschlüsselung der lokalen Daten und Sicherungen (AES-256, reine Dart-Implementierung)
+  encrypt: ^5.0.1
+  crypto: ^3.0.5
+
+  # Anwendungsspeicher (Dokumente-Verzeichnis) und sicherer Schlüsselaufbewahrung
+  path_provider: ^2.1.1
+  flutter_secure_storage: ^9.2.2
+
+  # Dateiauswahl für Export/Import/Sicherung
+  file_picker: ^8.0.0
+
+  # Einfache Benachrichtigungen (Toast-Äquivalent), reines Dart/Flutter
+  fluttertoast: ^8.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  test: ^1.26.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
