@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN_PATH="$SCRIPT_DIR/artifacts/mh-bin"
+
+if [[ ! -x "$BIN_PATH" ]]; then
+  mkdir -p "$SCRIPT_DIR/artifacts"
+  (
+    cd "$SCRIPT_DIR/app"
+    dart compile exe bin/mh.dart -o "$BIN_PATH" >/dev/null
+  )
+fi
+
+export MORPHHEALTH_ENV_FILE="$SCRIPT_DIR/ENVIRONMENT.json"
+exec "$BIN_PATH" "$@"

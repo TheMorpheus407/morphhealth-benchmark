@@ -1,0 +1,28 @@
+name: morphhealth
+description: "MorphHealth — Persönliches Ernährungstagebuch, Periodentracker, Gewicht und Symptome."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  args: ^2.7.0
+  collection: ^1.19.1
+  crypto: ^3.0.7
+  cryptography: ^2.9.0
+  http: ^1.5.0
+  intl: ^0.20.2
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
