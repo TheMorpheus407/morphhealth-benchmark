@@ -1,0 +1,9 @@
+MorphHealth – Build vom 2026-11-10T02:00:46Z
+Flutter: Flutter 3.41.9 • channel stable • https://github.com/flutter/flutter.git
+Dart: Dart SDK version: 3.11.5 (stable) (Wed Apr 15 00:36:32 2026 -0700) on "linux_x64"
+APK-Plattformen: android-arm64,android-x64
+Lebensmitteldienst der APK: https://localhost:8788
+Kennung der APK: MorphHealth/1.0-rc3 (benchmark build)
+SHA-256:
+3c5666803a901a1d05ddf8edbe81377dce659813cef8507c23c6d548dd0d0b4a  morphhealth.apk
+ce35241d92a919b17eec9166c21a1c1742b61e3ae2b8ae82b8bbfec99b136ff6  mh-linux-x64

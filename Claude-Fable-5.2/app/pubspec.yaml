@@ -1,0 +1,29 @@
+name: morphhealth
+description: "MorphHealth – lokales Tagebuch für Ernährung, Zyklus, Gewicht und Symptome"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+  flutter: ">=3.41.0"
+
+# Ein gemeinsamer Abhängigkeitsstand (app/pubspec.lock) für die Android-App und
+# den reinen Dart-Kern, den auch der Wartungszugang `mh` verwendet.
+workspace:
+  - packages/morphhealth_core
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  morphhealth_core: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

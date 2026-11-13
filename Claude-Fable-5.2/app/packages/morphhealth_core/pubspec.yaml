@@ -1,0 +1,19 @@
+name: morphhealth_core
+description: >-
+  Fachkern von MorphHealth in reinem Dart: Datenmodell, verschlüsselter
+  Datenbestand, Ernährungs- und Zyklusauswertung, Open-Food-Facts-Anbindung,
+  Export/Import und Sicherung. Wird von der Android-App und vom
+  Wartungszugang `mh` gemeinsam verwendet.
+publish_to: 'none'
+version: 1.0.0
+resolution: workspace
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  cryptography: ^2.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.26.0

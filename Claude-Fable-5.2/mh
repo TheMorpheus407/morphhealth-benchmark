@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+# Lokaler Wartungszugang zu MorphHealth (JSON Lines auf stdin/stdout).
+#
+#   ./mh --data-dir ABS --key-file ABS [--now RFC3339]
+#        [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+#
+# Der Starter ruft das Programm artifacts/mh-linux-x64 auf, das build.sh aus
+# app/packages/morphhealth_core/bin/mh.dart baut – aus demselben Fachkern,
+# den die Android-App verwendet. Fehlt das Programm oder läuft es auf diesem
+# Rechner nicht, wird es einmal neu gebaut. Auf stdout erscheinen
+# ausschließlich Antworten; alles andere geht nach stderr.
+#
+# Ohne --food-base-url und --food-user-agent gelten die Werte aus
+# ENVIRONMENT.json neben diesem Skript (food_api_base_url,
+# food_api_user_agent). Die Umgebungsvariable MH_ENVIRONMENT_FILE nennt bei
+# Bedarf eine andere Datei. Protokoll und Formate: README.md oder
+#   echo '{"request_id":1,"op":"describe"}' | ./mh --data-dir … --key-file …
+set -u
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BIN="$ROOT/artifacts/mh-linux-x64"
+
+if [ -z "${MH_ENVIRONMENT_FILE:-}" ] && [ -f "$ROOT/ENVIRONMENT.json" ]; then
+  export MH_ENVIRONMENT_FILE="$ROOT/ENVIRONMENT.json"
+fi
+
+# --help beendet sich mit 0, ohne etwas zu lesen: ein billiger Test, ob das
+# gebaute Programm vorhanden ist und auf diesem Rechner startet.
+if [ ! -x "$BIN" ] || ! "$BIN" --help >/dev/null 2>&1; then
+  echo "mh: baue den Wartungszugang (einmalig) …" >&2
+  mkdir -p "$ROOT/artifacts"
+  if ! "$ROOT/build.sh" --mh-only >/dev/null 2>"$ROOT/artifacts/.mh-build.log"; then
+    cat "$ROOT/artifacts/.mh-build.log" >&2 2>/dev/null
+    echo "mh: der Wartungszugang ließ sich nicht bauen" >&2
+    exit 69
+  fi
+  rm -f "$ROOT/artifacts/.mh-build.log"
+fi
+
+exec "$BIN" "$@"

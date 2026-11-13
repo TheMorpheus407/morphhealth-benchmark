@@ -1,0 +1,53 @@
+00:00 +0: loading /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart
+00:00 +0: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:00 +1: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:01 +2: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +3: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +4: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +5: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +6: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +7: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +8: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:02 +9: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:03 +10: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:03 +11: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:03 +12: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: own food with micronutrients: create, log, correct, delete
+00:03 +13: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: light theme: tap targets, labels and contrast
+00:03 +14: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: light theme: tap targets, labels and contrast
+00:04 +15: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/settings_data_test.dart: encrypted backup: passphrase rules, restore, wrong passphrase
+00:04 +16: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/history_flow_test.dart: every kind of entry opens for correction
+00:04 +17: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/cycle_flow_test.dart: the calendar shows history, estimate and day details
+00:04 +18: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/cycle_flow_test.dart: the calendar shows history, estimate and day details
+00:04 +19: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/cycle_flow_test.dart: the calendar shows history, estimate and day details
+00:05 +20: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/body_flow_test.dart: symptoms: free name, strength 0 to 10, correct, delete
+00:05 +21: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/body_flow_test.dart: symptoms: free name, strength 0 to 10, correct, delete
+00:05 +22: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:05 +23: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:05 +24: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:05 +25: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:05 +26: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:05 +27: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:06 +28: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:06 +29: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: dark theme: tap targets, labels and contrast
+00:06 +30: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/settings_data_test.dart: settings: language, appearance, unit, areas
+00:06 +31: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/settings_data_test.dart: settings: language, appearance, unit, areas
+00:06 +32: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/history_flow_test.dart: 10,000 entries: the list opens, searches and scrolls quickly
+00:07 +33: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/history_flow_test.dart: 10,000 entries: the list opens, searches and scrolls quickly
+00:07 +34: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/history_flow_test.dart: 10,000 entries: the list opens, searches and scrolls quickly
+10k entries (debug build, test host): start 291 ms, history 43 ms, keystrokes [44, 57, 23, 25, 20] ms, area filter 51 ms, 20 flings 862 ms, trends 49 ms
+00:07 +35: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: text at 200 % on a small phone: nothing breaks or overflows
+00:07 +36: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: text at 200 % on a small phone: nothing breaks or overflows
+00:07 +37: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: text at 200 % on a small phone: nothing breaks or overflows
+00:07 +38: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: text at 200 % on a small phone: nothing breaks or overflows
+00:07 +39: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: water and caffeine: one tap, undo, own amount
+00:07 +40: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: water and caffeine: one tap, undo, own amount
+00:08 +41: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: water and caffeine: one tap, undo, own amount
+00:08 +42: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: English with large text: nothing breaks or overflows
+00:08 +43: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/settings_data_test.dart: a backup is restored from the welcome screen
+00:08 +44: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: goals are optional and show progress
+00:08 +45: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: landscape and a narrow width keep working
+00:08 +46: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: the day view lists all 31 nutrients with their coverage
+00:08 +47: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/nutrition_flow_test.dart: the day view lists all 31 nutrients with their coverage
+00:08 +48: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: sheets end above the system navigation bar
+00:09 +49: /home/morpheus/Documents/Morpheus-Produktion/Benchmarks/MorphHealth/Claude-Fable-5.2/app/test/accessibility_test.dart: what is shown by colour is also said in words
+00:09 +50: All tests passed!

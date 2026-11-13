@@ -1,0 +1,30 @@
+MorphHealth – Prüfbericht vom 2026-11-10T03:10:40+0100
+Aufruf: ./check.sh --device
+Flutter: Flutter 3.41.9 • channel stable • https://github.com/flutter/flutter.git
+Dart: Dart SDK version: 3.11.5 (stable) (Wed Apr 15 00:36:32 2026 -0700) on "linux_x64"
+APK: 3c5666803a901a1d05ddf8edbe81377dce659813cef8507c23c6d548dd0d0b4a
+
+ok     1  Abhängigkeiten nach pubspec.lock
+         Try `flutter pub outdated` for more information.
+ok     2  Formatierung
+         Formatted 86 files (0 changed) in 0.32 seconds.
+ok     3a  Statische Analyse der App
+         No issues found! (ran in 0.8s)
+ok     3b  Statische Analyse des Fachkerns
+         No issues found!
+ok     4  Tests des Fachkerns
+         00:01 +209: All tests passed!
+ok     5  Tests der Oberfläche
+         00:09 +50: All tests passed!
+ok     6a  Wartungszugang bauen
+         ce35241d92a919b17eec9166c21a1c1742b61e3ae2b8ae82b8bbfec99b136ff6  mh-linux-x64
+ok     6b  Wartungszugang bedienen
+         mh: 53 Prüfungen bestanden, 0 fehlgeschlagen
+ok     7a  APK ist aktuell
+         Die APK ist neuer als alle Quellen.
+ok     7b  APK prüfen
+         APK: 18 Prüfungen bestanden, 0 fehlgeschlagen
+ok     8  Abläufe auf dem Referenzgerät
+         Gerät: 13 Schritte bestanden, 0 fehlgeschlagen
+
+Ergebnis: alles bestanden

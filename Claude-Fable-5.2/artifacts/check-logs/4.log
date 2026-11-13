@@ -1,0 +1,212 @@
+00:00 +0: loading test/document_test.dart
+00:00 +0: test/document_test.dart: example document imports without errors or warnings
+00:00 +1: test/document_test.dart: example document imports without errors or warnings
+00:00 +2: test/document_test.dart: example document imports without errors or warnings
+00:00 +3: test/off_client_test.dart: lookup requests the v3.6 product endpoint of the configured origin
+00:00 +4: test/document_test.dart: example document survives export → import → export unchanged
+00:00 +5: test/off_client_test.dart: lookup not found: HTTP 404 with a failure answer
+00:00 +6: test/document_test.dart: example document covers every nutrient key
+00:00 +7: test/document_test.dart: example document covers every nutrient key
+00:00 +8: test/off_client_test.dart: lookup invalid input is refused without a request
+00:00 +9: test/document_test.dart: a large generated diary survives the round trip
+00:00 +10: test/document_test.dart: a large generated diary survives the round trip
+00:00 +11: test/document_test.dart: a large generated diary survives the round trip
+00:00 +12: test/document_test.dart: a large generated diary survives the round trip
+00:00 +13: test/document_test.dart: a large generated diary survives the round trip
+00:00 +14: test/document_test.dart: a large generated diary survives the round trip
+00:00 +15: test/document_test.dart: a large generated diary survives the round trip
+00:00 +16: test/document_test.dart: a large generated diary survives the round trip
+00:00 +17: test/document_test.dart: a large generated diary survives the round trip
+00:00 +18: test/document_test.dart: a large generated diary survives the round trip
+00:00 +19: test/document_test.dart: a large generated diary survives the round trip
+00:00 +20: test/document_test.dart: a large generated diary survives the round trip
+00:00 +21: test/document_test.dart: a large generated diary survives the round trip
+00:00 +22: test/document_test.dart: a large generated diary survives the round trip
+00:00 +23: test/document_test.dart: a large generated diary survives the round trip
+00:00 +24: test/document_test.dart: a large generated diary survives the round trip
+00:00 +25: test/document_test.dart: a large generated diary survives the round trip
+00:00 +26: test/document_test.dart: a large generated diary survives the round trip
+00:00 +27: test/document_test.dart: a large generated diary survives the round trip
+00:00 +28: test/document_test.dart: a large generated diary survives the round trip
+00:00 +29: test/document_test.dart: a large generated diary survives the round trip
+00:00 +30: test/document_test.dart: a large generated diary survives the round trip
+00:00 +31: test/document_test.dart: a large generated diary survives the round trip
+00:00 +32: test/document_test.dart: a large generated diary survives the round trip
+00:00 +33: test/document_test.dart: a large generated diary survives the round trip
+00:00 +34: test/document_test.dart: a large generated diary survives the round trip
+00:00 +35: test/document_test.dart: a large generated diary survives the round trip
+00:00 +36: test/document_test.dart: a large generated diary survives the round trip
+00:00 +37: test/document_test.dart: a large generated diary survives the round trip
+00:00 +38: test/document_test.dart: a large generated diary survives the round trip
+00:00 +39: test/document_test.dart: a large generated diary survives the round trip
+00:00 +40: test/document_test.dart: a large generated diary survives the round trip
+00:00 +41: test/document_test.dart: a large generated diary survives the round trip
+00:00 +42: test/document_test.dart: a large generated diary survives the round trip
+00:00 +43: test/document_test.dart: a large generated diary survives the round trip
+00:00 +44: test/document_test.dart: a large generated diary survives the round trip
+00:00 +45: test/document_test.dart: a large generated diary survives the round trip
+00:00 +46: test/document_test.dart: a large generated diary survives the round trip
+00:00 +47: test/document_test.dart: a large generated diary survives the round trip
+00:00 +48: test/document_test.dart: a large generated diary survives the round trip
+00:00 +49: test/document_test.dart: a large generated diary survives the round trip
+00:00 +50: test/document_test.dart: a large generated diary survives the round trip
+00:00 +51: test/document_test.dart: a large generated diary survives the round trip
+00:00 +52: test/document_test.dart: a large generated diary survives the round trip
+00:00 +53: test/document_test.dart: a large generated diary survives the round trip
+00:00 +54: test/document_test.dart: a large generated diary survives the round trip
+00:00 +55: test/document_test.dart: a large generated diary survives the round trip
+00:00 +56: test/document_test.dart: a large generated diary survives the round trip
+00:00 +57: test/document_test.dart: a large generated diary survives the round trip
+00:00 +58: test/document_test.dart: a large generated diary survives the round trip
+00:00 +59: test/document_test.dart: a large generated diary survives the round trip
+00:00 +60: test/document_test.dart: a large generated diary survives the round trip
+00:00 +61: test/document_test.dart: a large generated diary survives the round trip
+00:00 +62: test/document_test.dart: a large generated diary survives the round trip
+00:00 +63: test/document_test.dart: a large generated diary survives the round trip
+00:00 +64: test/document_test.dart: a large generated diary survives the round trip
+00:00 +65: test/document_test.dart: a large generated diary survives the round trip
+00:00 +66: test/document_test.dart: a large generated diary survives the round trip
+00:00 +67: test/document_test.dart: a large generated diary survives the round trip
+00:00 +68: test/document_test.dart: a large generated diary survives the round trip
+00:00 +69: test/document_test.dart: a large generated diary survives the round trip
+00:00 +70: test/document_test.dart: a large generated diary survives the round trip
+00:00 +71: test/document_test.dart: a large generated diary survives the round trip
+00:00 +72: test/document_test.dart: a large generated diary survives the round trip
+00:00 +73: test/document_test.dart: a large generated diary survives the round trip
+00:00 +74: test/document_test.dart: a large generated diary survives the round trip
+00:00 +75: test/document_test.dart: a large generated diary survives the round trip
+00:00 +76: test/document_test.dart: a large generated diary survives the round trip
+00:00 +77: test/document_test.dart: a large generated diary survives the round trip
+00:00 +78: test/document_test.dart: a large generated diary survives the round trip
+00:00 +79: test/document_test.dart: a large generated diary survives the round trip
+00:00 +80: test/document_test.dart: a large generated diary survives the round trip
+00:00 +81: test/document_test.dart: a large generated diary survives the round trip
+00:00 +82: test/document_test.dart: a large generated diary survives the round trip
+00:00 +83: test/document_test.dart: a large generated diary survives the round trip
+00:00 +84: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +85: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +86: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +87: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +88: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +89: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +90: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +91: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +92: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +93: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +94: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +95: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +96: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +97: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +98: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +99: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +100: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +101: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +102: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +103: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +104: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +105: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +106: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +107: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +108: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +109: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +110: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +111: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +112: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +113: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +114: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +115: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +116: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +117: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +118: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +119: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +120: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +121: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +122: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +123: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +124: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +125: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +126: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +127: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +128: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +129: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +130: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +131: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +132: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +133: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +134: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +135: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +136: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +137: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +138: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +139: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +140: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +141: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +142: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +143: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +144: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +145: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +146: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +147: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +148: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +149: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +150: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +151: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +152: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +153: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +154: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +155: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +156: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +157: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +158: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +159: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +160: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +161: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +162: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +163: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +164: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +165: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +166: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +167: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +168: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +169: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +170: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +171: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +172: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +173: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +174: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +175: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +176: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +177: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +178: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +179: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +180: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +181: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +182: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +183: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +184: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +185: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +186: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +187: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +188: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +189: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +190: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +191: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +192: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +193: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +194: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +195: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+00:00 +196: test/performance_test.dart: 10,000 entries: import, reopen, change, export
+entries=10734 import=182ms open=57ms write=4.06ms/change export=29ms export=1717KiB snapshot=183KiB
+00:00 +197: test/store_test.dart: the journal is folded into a snapshot when it has grown
+00:01 +198: test/backup_test.dart: default parameters work end to end
+00:01 +199: test/backup_test.dart: default parameters work end to end
+00:01 +200: test/backup_test.dart: default parameters work end to end
+00:01 +201: test/backup_test.dart: default parameters work end to end
+00:01 +202: test/backup_test.dart: default parameters work end to end
+00:01 +203: test/backup_test.dart: default parameters work end to end
+00:01 +204: test/backup_test.dart: default parameters work end to end
+00:01 +205: test/store_test.dart: replaceAll and wipe rewrite everything
+00:01 +206: test/store_test.dart: replaceAll and wipe rewrite everything
+00:01 +207: test/store_test.dart: two processes on one directory see each other's changes
+00:01 +208: test/store_test.dart: the master key must be 32 bytes
+00:01 +209: All tests passed!

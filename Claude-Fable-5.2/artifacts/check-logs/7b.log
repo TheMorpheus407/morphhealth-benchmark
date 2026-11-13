@@ -1,0 +1,26 @@
+APK artifacts/morphhealth.apk (40.8 MB)
+  ok    aapt2 liest die APK
+  ok    Package-ID de.themorpheus.morphhealth.local
+        Version 1.0.0 (Code 1)
+  ok    läuft auf dem Referenzgerät (API 35)
+        minSdk 26, targetSdk 36
+  ok    Release-Build (nicht debuggable)
+  ok    einzige Berechtigung: INTERNET
+  ok    enthält x86_64
+        Plattformen: arm64-v8a, x86_64
+  ok    arm64-v8a: Flutter-Engine und App-Code vorhanden
+  ok    x86_64: Flutter-Engine und App-Code vorhanden
+  ok    nativer Flutter-Code, kein WebView-Inhalt
+  ok    Adresse des Lebensmitteldienstes aus ENVIRONMENT.json eingebaut
+  ok    Kennung (User-Agent) aus ENVIRONMENT.json eingebaut
+  ok    Manifest lesbar
+  ok    Android-Sicherung ausgeschaltet (allowBackup=false)
+  ok    Regeln gegen Geräteübertragung vorhanden (dataExtractionRules)
+  ok    kein unverschlüsselter Netzverkehr (usesCleartextTraffic=false)
+  ok    von außen erreichbar ist nur der Startbildschirm
+  ok    Signatur gültig
+  ok    Signaturschema v2 oder neuer
+        signiert von: CN=MorphHealth local build, O=MorphHealth, C=DE
+        Zertifikat SHA-256: e9561d258dd534ac3e245b392e128cb1373ac18b2540d76d575cfc7965fe9036
+
+APK: 18 Prüfungen bestanden, 0 fehlgeschlagen

@@ -1,0 +1,16 @@
+Gerät emulator-5560: Android 15, x86_64
+  ok    APK installieren, Daten der App zurücksetzen
+  ok    Begrüßung ohne Registrierung, Übersicht erscheint
+  ok    Suche in Open Food Facts mit Einwilligung, Treffer erfassen
+  ok    Barcode-Nummer nachschlagen und erfassen
+  ok    Wasser mit einem Tipp erfassen
+  ok    Periode mit einem Tipp beginnen
+  ok    Gewicht eintragen
+  ok    Symptom mit Stärke eintragen
+  ok    gemeinsame Historie zeigt alle 6 Einträge
+  ok    Export über den Systemdialog ist vollständig
+  ok    private Dateien: nur der verschlüsselte Bestand, kein Klartext
+  ok    nach einem Neustart sind alle Einträge wieder da
+  ok    auf dem Gerät: einzige Berechtigung ist INTERNET
+
+Gerät: 13 Schritte bestanden, 0 fehlgeschlagen

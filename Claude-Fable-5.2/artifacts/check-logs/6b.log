@@ -1,0 +1,60 @@
+Protokoll und Beschreibung
+  ok    describe antwortet mit genau einer Zeile
+  ok    describe: request_id und ok
+  ok    nichts auf stderr
+  ok    describe enthält "protocol"
+  ok    describe enthält "operations"
+  ok    describe enthält "formats"
+  ok    describe enthält "example_document"
+  ok    describe enthält "invocation"
+  ok    describe enthält "nutrients"
+  ok    describe enthält "food_service"
+  ok    describe dokumentiert describe
+  ok    describe dokumentiert portable.export
+  ok    describe dokumentiert portable.import
+  ok    describe dokumentiert nutrition.day
+  ok    describe dokumentiert cycle.forecast
+  ok    describe dokumentiert food.search
+  ok    describe dokumentiert food.lookup
+  ok    describe nennt die gesetzte Uhr
+  ok    describe nennt alle 31 Nährstoffe
+  ok    Start des Programms unter einer Sekunde
+Import, Auswertung, Export
+  ok    eine Antwort je Anfrage, in Reihenfolge
+  ok    leerer Bestand lässt sich exportieren
+  ok    Import ohne Bestätigung wird abgelehnt
+  ok    Import mit Bestätigung ersetzt den Bestand
+  ok    Importbericht zählt je Art
+  ok    nutrition.day: Kalorien des 22.09.2026
+  ok    nutrition.day: Makronährstoffe
+  ok    nutrition.day: alle 31 Nährstoffe mit Abdeckung
+  ok    nutrition.day: Mahlzeiten, Wasser, Koffein, Ziele
+  ok    cycle.forecast: nächste Periode um den 14.10.2026
+  ok    cycle.forecast: Grundlage und Erklärung in beiden Sprachen
+  ok    Export ohne Bestätigung wird abgelehnt
+  ok    Export nach Import ist inhaltsgleich mit dem Beispieldokument
+  ok    ungültiges Datum wird mit Feldangabe abgelehnt
+  ok    cycle.forecast für einen früheren Betrachtungstag nutzt nur, was damals bekannt war
+Dauerhaftigkeit und Schlüssel
+  ok    ein neuer Prozess sieht dieselben Daten
+  ok    der Datenordner enthält nur die drei Dateien des Bestands
+  ok    im Datenordner steht nichts im Klartext
+  ok    falscher Schlüssel: Fehler store_wrong_key, keine Daten
+  ok    Schlüsseldatei mit 31 Bytes: Fehler key_file_invalid
+  ok    Schlüsseldatei im Datenordner: Fehler key_file_invalid
+Fehlerhafte Eingaben
+  ok    kaputte Zeilen beenden die Sitzung nicht
+  ok    EOF beendet den Prozess mit 0
+  ok    ungültige Optionen: Exit 64, nichts auf stdout
+  ok    Lebensmitteldienst ohne HTTPS wird abgelehnt
+Lebensmitteldienst
+  ok    food.lookup findet ein Produkt mit Nährwerten
+  ok    food.lookup: unbekannter Barcode ist ein Ergebnis, kein Fehler
+  ok    food.lookup: Barcode mit Leer- und Trennzeichen wird bereinigt
+  ok    food.lookup: ungültiger Barcode wird ohne Abruf abgelehnt
+  ok    food.search liefert Treffer mit Seitenangaben
+  ok    food.search: Seite 2 liefert andere Produkte
+  ok    food.search: leerer Suchbegriff wird abgelehnt
+  ok    ausgeschaltete Online-Suche wird respektiert
+
+mh: 53 Prüfungen bestanden, 0 fehlgeschlagen
