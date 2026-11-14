@@ -1,0 +1,73 @@
+{
+ "measured_at": "2026-09-23",
+ "protocol": "MH-PERSONAL-3",
+ "spec_sha256": "369220da0f96458d237a64523da8e4b98f53809713d35544492229074eb91516",
+ "host": {
+  "os": "NixOS 26.05 (Yarara)",
+  "nixos_version": "26.05.9729.c3eea5b2156d",
+  "nixos_build_id": "26.05.9729.c3eea5b2156d",
+  "nixpkgs_revision": "c3eea5b2156db11c7eeeada3dc737711255b253e",
+  "nix_lock_sha256": "unavailable",
+  "kernel": "6.18.43",
+  "cpu": "AMD Ryzen 9 9950X 16-Core Processor (32 threads)",
+  "bash": "5.3.9",
+  "git": "2.54.0",
+  "python": "3.13.15",
+  "tzdata": "2026c"
+ },
+ "toolchain": {
+  "flutter": "3.41.9 (stable, nixpkgs build; engine 42d3d75a56)",
+  "dart": "3.11.5",
+  "flutter_store_path": "/nix/store/wr38sjhxy4b8c65mhsj2m1qkzgzv14na-flutter-wrapped-3.41.9-sdk-links",
+  "jdk_used_by_flutter_gradle": {
+   "version": "21.0.10 (JetBrains Runtime, build 21.0.10+-14961533-b1163.108)",
+   "java_binary": "/nix/store/v6ai8m68zxh0f56vjx0z5kay1swzy38b-android-studio-unwrapped-2025.3.4.7/jbr/bin/java"
+  },
+  "jdk_system_java": {
+   "version": "17.0.20.1 (OpenJDK, build 17.0.20.1+1-nixos)",
+   "java_binary": "/nix/store/kfi0dzyh16brh3mz0wj1irq8np297dqj-openjdk-17.0.20.1+1/lib/openjdk/bin/java"
+  },
+  "android_sdk_path": "/home/morpheus/Android/Sdk",
+  "android_platform": "android-36",
+  "android_build_tools": "36.1.0",
+  "android_cmdline_tools": "19.0",
+  "adb_path": "/home/morpheus/Android/Sdk/platform-tools/adb",
+  "adb_version": "1.0.41 (platform-tools 36.0.2-14143358)",
+  "emulator_path": "/home/morpheus/Android/Sdk/emulator/emulator",
+  "emulator_version": "36.3.10.0 (build_id 14472402)",
+  "adb_note": "Use the SDK adb at adb_path. /run/current-system/sw/bin/adb (35.0.2) is first on PATH; mixing both versions restarts the adb server."
+ },
+ "android_reference_device": {
+  "avd_name": "morphhealth_ref_api35",
+  "adb_serial": "emulator-5560",
+  "system_image": "system-images;android-35;default;x86_64",
+  "system_image_revision": "2",
+  "system_image_tag": "default (AOSP, no Google APIs/Play)",
+  "build_fingerprint": "Android/sdk_phone64_x86_64/emu64x:15/AE3A.240806.019/12368160:userdebug/test-keys",
+  "security_patch": "2024-09-05",
+  "api_level": 35,
+  "android_version": "15",
+  "abi": "x86_64",
+  "system_img_sha256": "8d7b29ad96c15adb663a5a8ced7f3ea40552019626f6a4420c54dc061f569970",
+  "vendor_img_sha256": "07a890bca988a65cd651edf340f1498d8ee3c2d0fe91659bc81425bcdd284750",
+  "vcpus": 4,
+  "ram_mib": 4096,
+  "screen_px": "1080x2400",
+  "density_dpi": 420,
+  "data_partition": "8G",
+  "device_tzdata": "2024a",
+  "device_timezone": "Europe/Berlin",
+  "emulator_flags": "-writable-system -no-snapshot -no-audio -no-boot-anim -gpu swiftshader_indirect",
+  "screen_and_input": "emulator window on host display; adb exec-out screencap -p; adb shell input",
+  "document_picker": "com.android.documentsui present (OPEN_DOCUMENT / CREATE_DOCUMENT verified)",
+  "state_at_handover": "Running on emulator-5560 with a window on the host display before the task is handed over. Another emulator (emulator-5556) belongs to a different project: never use or stop it; always pass -s emulator-5560.",
+  "restart_command": "LD_LIBRARY_PATH=/nix/store/id0pwhcwsnp9vc76ghlawnmrvxziqfmf-morphhealth-emulator-libs/lib /home/morpheus/Android/Sdk/emulator/emulator -avd morphhealth_ref_api35 -port 5560 -writable-system -no-snapshot -no-audio -no-boot-anim -gpu swiftshader_indirect",
+  "note": "userdebug AOSP image; system partition writable, verity disabled (organizer uses this for system certificate trust). Do not modify system trust or disable TLS verification."
+ },
+ "food_api_base_url": "https://localhost:8788",
+ "food_api_user_agent": "MorphHealth/1.0-rc3 (benchmark build)",
+ "certificate_trust": "Host (/etc/ssl/certs/ca-certificates.crt) and Android system stores trust the public web PKI plus the organizer's local CA used by food_api_base_url. No action needed; do not bypass TLS verification in the app or CLI.",
+ "network": "Internet access available. Use food_api_base_url for food data; do not call the live Open Food Facts API.",
+ "food_api_note": "Provided HTTPS endpoint of the same read-only Open Food Facts contract (P08), serving products sold in Germany from the official OFF database dump of 2026-09-22 (ODbL). Reachable from host and from the reference device (via adb reverse). Product image URLs still point to images.openfoodfacts.org.",
+ "working_conditions": "No limit on development time, tokens, cost or iterations."
+}

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+HERE="$(cd "$(dirname "$0")" && pwd)"
+# mh - lokaler JSON-Lines-Wartungszugang (P10). Nicht oeffentlich erreichbar.
+# Aufruf: ./mh --data-dir ABS --key-file ABS [--now RFC3339] [--food-base-url HTTPS_ORIGIN] [--food-user-agent STRING]
+# data-dir: persistenter Arbeitsdatenbestand; die App legt data.enc.json darin an (AES-256-GCM).
+# key-file: 32 rohe Bytes (ausserhalb von data-dir). Der Schluessel entschluesselt den Datenbestand;
+#           bei Verlust sind die lokalen Daten nicht wiederherstellbar (Sicherung: siehe README).
+# now: fachliche Uhr dieses Prozesses (wird entgegengenommen; Datums-Ops nutzen das Anfrage-Datum).
+# food-*: Origin/User-Agent fuer die lesende Open-Food-Facts-Anbindung (Fallback: Einstellungen).
+MH_BIN="$HERE/mh_tool/build/mh"
+if [[ ! -x "$MH_BIN" ]]; then
+  (cd "$HERE/mh_tool" && dart pub get --offline >/dev/null 2>&1 && dart compile exe lib/main.dart -o build/mh >/dev/null)
+fi
+exec "$MH_BIN" "$@"
